@@ -1,2 +1,0 @@
-COPY ~bart_tweaks/weapon_mastery/wspatck.2da~ ~override~
-COPY ~bart_tweaks/weapon_mastery/wspecial.2da~ ~override~

@@ -1,6 +1,0 @@
-COPY ~bart_tweaks/debug_ring/ringkill.itm~ ~override~
-COPY ~bart_tweaks/debug_ring/ringkill.eff~ ~override~
-COPY ~bart_tweaks/debug_ring/ringkill.spl~ ~override~
-ADD_PROJECTILE ~bart_tweaks/debug_ring/ringkill.pro~
-COPY_EXISTING ~ringkill.spl~ ~override~
-  WRITE_SHORT 0x98 ringkill
