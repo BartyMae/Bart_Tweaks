@@ -38,7 +38,8 @@ New:<br/>
 24: 3, 3, 3, 2, 2, 1, 1 (7th)<br/>
 25: 3, 3, 3, 3, 2, 2, 1 (4th, 6th)<br/>
 
-8. Alternative Constitution Bonuses<br/>
+8. Alternative Constitution Bonuses
+
 01: -5 HP on level up, no regeneration, -5 fatigue bonus<br/>
 02: -4 HP on level up, no regeneration, -4 fatigue bonus<br/>
 03: -4 HP on level up, no regeneration, -4 fatigue bonus<br/>
