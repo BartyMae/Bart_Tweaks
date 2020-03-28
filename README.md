@@ -8,6 +8,7 @@
 7. Alternative Wisdom Bonus Spell Table
 
 Vanilla:
+
 0          1          2          3          4          5          6          7          
 13         1          0          0          0          0          0          0          
 14         2          0          0          0          0          0          0          
@@ -24,6 +25,7 @@ Vanilla:
 25         3          3          2          4          4          3          1          
 
 New:
+
 0          1          2          3          4          5          6          7          
 13         1          0          0          0          0          0          0          
 14         1          1          0          0          0          0          0          
