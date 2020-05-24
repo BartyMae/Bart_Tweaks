@@ -50,7 +50,151 @@ Vanilla Spell Selection:<br/>
 39th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
 40th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
 
-New:<br/>
+New Spell Selection:<br/>
+1st Level: 1, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+3rd Level: 2, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
+4th Level: 3, 2, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
+5th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (1st, 3rd)<br/>
+6th Level: 4, 2, 2, 0, 0, 0, 0, 0, 0 (3rd)<br/>
+7th Level: 4, 3, 2, 1, 0, 0, 0, 0, 0 (2nd, 4th)<br/>
+8th Level: 4, 3, 3, 2, 0, 0, 0, 0, 0 (3rd, 4th)<br/>
+9th Level: 4, 3, 3, 2, 1, 0, 0, 0, 0 (5th)<br/>
+10th Level: 4, 4, 3, 2, 2, 0, 0, 0, 0 (2nd, 5th)<br/>
+11th Level: 4, 4, 4, 3, 3, 0, 0, 0, 0 (3rd, 4th, 5th)<br/>
+12th Level: 4, 4, 4, 4, 4, 1, 0, 0, 0 (4th, 5th, 6th)<br/>
+13th Level: 5, 5, 5, 4, 4, 2, 0, 0, 0 (1st, 2nd, 3rd, 6th)<br/>
+14th Level: 5, 5, 5, 4, 4, 2, 1, 0, 0 (7th)<br/>
+15th Level: 5, 5, 5, 5, 5, 2, 1, 0, 0 (4th, 5th)<br/>
+16th Level: 5, 5, 5, 5, 5, 3, 2, 1, 0 (6th, 7th, 8th)<br/>
+17th Level: 5, 5, 5, 5, 5, 3, 3, 2, 0 (7th, 8th)<br/>
+18th Level: 5, 5, 5, 5, 5, 3, 3, 2, 1 (9th)<br/>
+19th Level: 5, 5, 5, 5, 5, 3, 3, 3, 1 (8th)<br/>
+20th Level: 5, 5, 5, 5, 5, 4, 3, 3, 2 (6th, 9th)<br/>
+21st Level: 5, 5, 5, 5, 5, 4, 4, 4, 2 (7th, 8th)<br/>
+22nd Level: 5, 5, 5, 5, 5, 5, 4, 4, 3 (6th, 9th)<br/>
+23rd Level: 5, 5, 5, 5, 5, 5, 5, 5, 3 (7th, 8th)<br/>
+24th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (9th)<br/>
+25th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br/>
+26th Level: 6, 6, 6, 6, 6, 5, 5, 5, 5 (1st, 2nd, 3rd, 4th, 5th, 9th)<br/>
+27th Level: 6, 6, 6, 6, 6, 6, 6, 5, 5 (6th, 7th)<br/>
+28th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (8th, 9th)<br/>
+29th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+30th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+31st Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+32nd Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+33rd Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+34th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+35th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+36th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+37th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+38th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+39th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+40th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+41st Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+42nd Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+43rd Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+44th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+45th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+46th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+47th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+48th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+49th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+50th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+
+Vanilla Spell Table:<br/>
+1st Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (3x 1st)<br/>
+2nd Level: 4, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+3rd Level: 5, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+4th Level: 6, 3, 0, 0, 0, 0, 0, 0, 0 (1st, 3x 2nd)<br/>
+5th Level: 6, 4, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
+6th Level: 6, 5, 3, 0, 0, 0, 0, 0, 0 (2nd, 3x 3rd)<br/>
+7th Level: 6, 6, 4, 0, 0, 0, 0, 0, 0 (2nd, 3rd)<br/>
+8th Level: 6, 6, 5, 3, 0, 0, 0, 0, 0 (3rd, 3x 4th)<br/>
+9th Level: 6, 6, 6, 4, 0, 0, 0, 0, 0 (3rd, 4th)<br/>
+10th Level: 6, 6, 6, 5, 3, 0, 0, 0, 0 (4th, 3x 5th)<br/>
+11th Level: 6, 6, 6, 6, 4, 0, 0, 0, 0 (4th, 5th)<br/>
+12th Level: 6, 6, 6, 6, 5, 3, 0, 0, 0 (5th, 3x 6th)<br/>
+13th Level: 6, 6, 6, 6, 6, 4, 0, 0, 0 (5th, 6th)<br/>
+14th Level: 6, 6, 6, 6, 6, 5, 3, 0, 0 (6th, 3x 7th)<br/>
+15th Level: 6, 6, 6, 6, 6, 6, 4, 0, 0 (6th, 7th)<br/>
+16th Level: 6, 6, 6, 6, 6, 6, 5, 3, 0 (7th, 3x 8th)<br/>
+17th Level: 6, 6, 6, 6, 6, 6, 6, 4, 0 (7th, 8th)<br/>
+18th Level: 6, 6, 6, 6, 6, 6, 6, 5, 3 (8th, 3x 9th)<br/>
+19th Level: 6, 6, 6, 6, 6, 6, 6, 6, 4 (8th, 9th)<br/>
+20th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (2x 9th)<br/>
+21th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+22th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+23th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+24th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+25th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+26th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+27th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+28th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+29th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+30th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+31th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+32th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+33th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+34th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+35th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+36th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+37th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+38th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+39th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+40th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
+
+New Spell Table:<br/>
+1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
+2nd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+3rd Level: 3, 2, 0, 0, 0, 0, 0, 0, 0 (2x 2nd)<br/>
+4th Level: 4, 3, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
+5th Level: 5, 3, 2, 0, 0, 0, 0, 0, 0 (1st, 2x 3rd)<br/>
+6th Level: 5, 3, 3, 0, 0, 0, 0, 0, 0 (3rd)<br/>
+7th Level: 5, 4, 3, 2, 0, 0, 0, 0, 0 (2nd, 2x 4th)<br/>
+8th Level: 5, 4, 4, 3, 0, 0, 0, 0, 0 (3rd, 4th)<br/>
+9th Level: 5, 4, 4, 3, 2, 0, 0, 0, 0 (2x 5th)<br/>
+10th Level: 5, 5, 4, 3, 3, 0, 0, 0, 0 (2nd, 5th)<br/>
+11th Level: 5, 5, 5, 4, 4, 0, 0, 0, 0 (3rd, 4th, 5th)<br/>
+12th Level: 5, 5, 5, 5, 5, 2, 0, 0, 0 (4th, 5th, 2x 6th)<br/>
+13th Level: 6, 6, 6, 5, 5, 3, 0, 0, 0 (1st, 2nd, 3rd, 6th)<br/>
+14th Level: 6, 6, 6, 5, 5, 3, 2, 0, 0 (2x 7th)<br/>
+15th Level: 6, 6, 6, 6, 6, 3, 2, 0, 0 (4th, 5th)<br/>
+16th Level: 6, 6, 6, 6, 6, 4, 3, 2, 0 (6th, 7th, 2x 8th)<br/>
+17th Level: 6, 6, 6, 6, 6, 4, 4, 3, 0 (7th, 8th)<br/>
+18th Level: 6, 6, 6, 6, 6, 4, 4, 3, 2 (2x 9th)<br/>
+19th Level: 6, 6, 6, 6, 6, 4, 4, 4, 2 (8th)<br/>
+20th Level: 6, 6, 6, 6, 6, 5, 4, 4, 3 (6th, 9th)<br/>
+21th Level: 6, 6, 6, 6, 6, 5, 5, 5, 3 (7th, 8th)<br/>
+22th Level: 6, 6, 6, 6, 6, 6, 5, 5, 4 (6th, 9th)<br/>
+23th Level: 6, 6, 6, 6, 6, 6, 6, 6, 4 (7th, 8th)<br/>
+24th Level: 6, 6, 6, 6, 6, 6, 6, 6, 5 (9th)<br/>
+25th Level: 6, 6, 6, 6, 6, 6, 6, 6, 5 (0th)<br/>
+26th Level: 7, 7, 7, 7, 7, 6, 6, 6, 6 (1st, 2nd, 3rd, 4th, 5th, 9th)<br/>
+27th Level: 7, 7, 7, 7, 7, 7, 7, 6, 6 (6th, 7th)<br/>
+28th Level: 7, 7, 7, 7, 7, 7, 7, 7, 7 (8th, 9th)<br/>
+29th Level: 8, 8, 8, 8, 8, 7, 7, 7, 7 (1st, 2nd, 3rd, 4th, 5th)<br/>
+30th Level: 8, 8, 8, 8, 8, 8, 8, 7, 7 (6th, 7th, 8th)<br/>
+31th Level: 8, 8, 8, 8, 8, 8, 8, 8, 8 (8th, 9th)<br/>
+32th Level: 8, 8, 8, 8, 8, 8, 8, 8, 8 (0th)<br/>
+33th Level: 8, 8, 8, 8, 8, 8, 8, 8, 8 (0th)<br/>
+34th Level: 9, 9, 9, 9, 9, 8, 8, 8, 8 (1st, 2nd, 3rd, 4th, 5th)<br/>
+35th Level: 9, 9, 9, 9, 9, 9, 9, 8, 8 (6th, 7th)<br/>
+36th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (8th, 9th)<br/>
+37th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+38th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+39th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+40th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+41th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+42th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+43th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+44th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+45th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+46th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+47th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+48th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+49th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
+50th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9, (0th)<br/>
 
 6. Alternative Weapon Mastery<br/>
 
