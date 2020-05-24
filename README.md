@@ -51,13 +51,13 @@ New:<br/>
 
 8. Alternative Constitution Bonuses
 
-01: -5 HP on level up, no regeneration, -5 fatigue bonus<br/>
-02: -4 HP on level up, no regeneration, -4 fatigue bonus<br/>
-03: -4 HP on level up, no regeneration, -4 fatigue bonus<br/>
-04: -3 HP on level up, no regeneration, -3 fatigue bonus<br/>
-05: -3 HP on level up, no regeneration, -3 fatigue bonus<br/>
-06: -2 HP on level up, no regeneration, -2 fatigue bonus<br/>
-07: -2 HP on level up, no regeneration, -2 fatigue bonus<br/>
+01: -3 HP on level up, no regeneration, -5 fatigue bonus<br/>
+02: -2 HP on level up, no regeneration, -4 fatigue bonus<br/>
+03: -2 HP on level up, no regeneration, -4 fatigue bonus<br/>
+04: -2 HP on level up, no regeneration, -3 fatigue bonus<br/>
+05: -2 HP on level up, no regeneration, -3 fatigue bonus<br/>
+06: -1 HP on level up, no regeneration, -2 fatigue bonus<br/>
+07: -1 HP on level up, no regeneration, -2 fatigue bonus<br/>
 08: -1 HP on level up, no regeneration, -1 fatigue bonus<br/>
 09: -1 HP on level up, no regeneration, -1 fatigue bonus<br/>
 10: 0 HP on level up, 1 hp/2400 second regeneration, 0 fatigue bonus<br/>
