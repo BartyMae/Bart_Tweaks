@@ -42,13 +42,13 @@ BEGIN ~Alternative Weapon Mastery~
 INCLUDE ~bart_tweaks/lib/weapon_mastery.tpa~
 
 // -----------------------------
-// Alternative Wisdom Bonus Spell Table
+// Alternative Wisdom Bonus Spells
 // -----------------------------
-BEGIN ~Alternative Wisdom Bonus Spell Table~
-INCLUDE ~bart_tweaks/lib/wisdom_bonus_spell_table.tpa~
+BEGIN ~Alternative Wisdom Bonus Spells~
+INCLUDE ~bart_tweaks/lib/wisdom_bonus_spells.tpa~
 
 // -----------------------------
-// Alternative Constitution Bonus
+// Alternative Constitution Bonuses
 // -----------------------------
-BEGIN ~Alternative Constitution Bonus~
+BEGIN ~Alternative Constitution Bonuses~
 INCLUDE ~bart_tweaks/lib/constitution_bonus.tpa~
