@@ -3,8 +3,19 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
+
+Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.
+
 5. Alternative Sorcerer Spell Progression<br/>
+
+Vanilla:<br/>
+New:<br/>
+
 6. Alternative Weapon Mastery<br/>
+
+Vanilla:<br/>
+New:<br/>
+
 7. Alternative Wisdom Bonus Spells
 
 Vanilla:<br/>
