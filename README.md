@@ -3,10 +3,15 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
+5. Alternative Sorcerer Spell Progression<br/>
+6. Alternative Weapon Mastery<br/>
+7. Alternative Wisdom Bonus Spells
+8. Alternative Constitution Bonuses
 
+Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.
 
-5. Alternative Sorcerer Spell Progression<br/>
+Alternative Sorcerer Spell Progression<br/>
 
 Vanilla Spell Selection:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
@@ -196,12 +201,7 @@ New Spell Table:<br/>
 49th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9 (0th)<br/>
 50th Level: 9, 9, 9, 9, 9, 9, 9, 9, 9, (0th)<br/>
 
-6. Alternative Weapon Mastery<br/>
-
-Vanilla:<br/>
-New:<br/>
-
-7. Alternative Wisdom Bonus Spells
+Alternative Wisdom Spell Bonuses<br/>
 
 Vanilla:<br/>
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
@@ -234,8 +234,7 @@ New:<br/>
 24: 3, 3, 3, 2, 2, 1, 1 (7th)<br/>
 25: 3, 3, 3, 3, 2, 2, 1 (4th, 6th)<br/>
 
-8. Alternative Constitution Bonuses
-
+Alternative Constitution Bonuses</br>
 01: -3 HP on level up, no regeneration, -5 fatigue bonus<br/>
 02: -2 HP on level up, no regeneration, -4 fatigue bonus<br/>
 03: -2 HP on level up, no regeneration, -4 fatigue bonus<br/>
