@@ -5,7 +5,7 @@
 4. Droppable/Movable NPC Items<br/>
 5. Alternative Sorcerer Spell Progression<br/>
 6. Alternative Weapon Mastery<br/>
-7. Alternative Wisdom Bonus Spell Table
+7. Alternative Wisdom Bonus Spells
 
 Vanilla:<br/>
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
