@@ -56,24 +56,24 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 40th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
 
 ### New Spell Selection:<br/>
-###### 1st Level: 1, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+1st Level: 1, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
 2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
-###### 3rd Level: 2, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
+3rd Level: 2, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
 4th Level: 3, 2, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
-###### 5th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (1st, 3rd)<br/>
+5th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (1st, 3rd)<br/>
 6th Level: 4, 2, 2, 0, 0, 0, 0, 0, 0 (3rd)<br/>
-###### 7th Level: 4, 3, 2, 1, 0, 0, 0, 0, 0 (2nd, 4th)<br/>
+7th Level: 4, 3, 2, 1, 0, 0, 0, 0, 0 (2nd, 4th)<br/>
 8th Level: 4, 3, 3, 2, 0, 0, 0, 0, 0 (3rd, 4th)<br/>
-###### 9th Level: 4, 3, 3, 2, 1, 0, 0, 0, 0 (5th)<br/>
+9th Level: 4, 3, 3, 2, 1, 0, 0, 0, 0 (5th)<br/>
 10th Level: 4, 4, 3, 2, 2, 0, 0, 0, 0 (2nd, 5th)<br/>
 11th Level: 4, 4, 4, 3, 3, 0, 0, 0, 0 (3rd, 4th, 5th)<br/>
-###### 12th Level: 4, 4, 4, 4, 4, 1, 0, 0, 0 (4th, 5th, 6th)<br/>
+12th Level: 4, 4, 4, 4, 4, 1, 0, 0, 0 (4th, 5th, 6th)<br/>
 13th Level: 5, 5, 5, 4, 4, 2, 0, 0, 0 (1st, 2nd, 3rd, 6th)<br/>
-###### 14th Level: 5, 5, 5, 4, 4, 2, 1, 0, 0 (7th)<br/>
+14th Level: 5, 5, 5, 4, 4, 2, 1, 0, 0 (7th)<br/>
 15th Level: 5, 5, 5, 5, 5, 2, 1, 0, 0 (4th, 5th)<br/>
-###### 16th Level: 5, 5, 5, 5, 5, 3, 2, 1, 0 (6th, 7th, 8th)<br/>
+16th Level: 5, 5, 5, 5, 5, 3, 2, 1, 0 (6th, 7th, 8th)<br/>
 17th Level: 5, 5, 5, 5, 5, 3, 3, 2, 0 (7th, 8th)<br/>
-###### 18th Level: 5, 5, 5, 5, 5, 3, 3, 2, 1 (9th)<br/>
+18th Level: 5, 5, 5, 5, 5, 3, 3, 2, 1 (9th)<br/>
 19th Level: 5, 5, 5, 5, 5, 3, 3, 3, 1 (8th)<br/>
 20th Level: 5, 5, 5, 5, 5, 4, 3, 3, 2 (6th, 9th)<br/>
 21st Level: 5, 5, 5, 5, 5, 4, 4, 4, 2 (7th, 8th)<br/>
@@ -150,24 +150,24 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 40th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
 
 ### New Spell Table:<br/>
-###### 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
+1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
 2nd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
-###### 3rd Level: 3, 2, 0, 0, 0, 0, 0, 0, 0 (2x 2nd)<br/>
+3rd Level: 3, 2, 0, 0, 0, 0, 0, 0, 0 (2x 2nd)<br/>
 4th Level: 4, 3, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
-###### 5th Level: 5, 3, 2, 0, 0, 0, 0, 0, 0 (1st, 2x 3rd)<br/>
+5th Level: 5, 3, 2, 0, 0, 0, 0, 0, 0 (1st, 2x 3rd)<br/>
 6th Level: 5, 3, 3, 0, 0, 0, 0, 0, 0 (3rd)<br/>
-###### 7th Level: 5, 4, 3, 2, 0, 0, 0, 0, 0 (2nd, 2x 4th)<br/>
+7th Level: 5, 4, 3, 2, 0, 0, 0, 0, 0 (2nd, 2x 4th)<br/>
 8th Level: 5, 4, 4, 3, 0, 0, 0, 0, 0 (3rd, 4th)<br/>
-###### 9th Level: 5, 4, 4, 3, 2, 0, 0, 0, 0 (2x 5th)<br/>
+9th Level: 5, 4, 4, 3, 2, 0, 0, 0, 0 (2x 5th)<br/>
 10th Level: 5, 5, 4, 3, 3, 0, 0, 0, 0 (2nd, 5th)<br/>
 11th Level: 5, 5, 5, 4, 4, 0, 0, 0, 0 (3rd, 4th, 5th)<br/>
-###### 12th Level: 5, 5, 5, 5, 5, 2, 0, 0, 0 (4th, 5th, 2x 6th)<br/>
+12th Level: 5, 5, 5, 5, 5, 2, 0, 0, 0 (4th, 5th, 2x 6th)<br/>
 13th Level: 6, 6, 6, 5, 5, 3, 0, 0, 0 (1st, 2nd, 3rd, 6th)<br/>
-###### 14th Level: 6, 6, 6, 5, 5, 3, 2, 0, 0 (2x 7th)<br/>
+14th Level: 6, 6, 6, 5, 5, 3, 2, 0, 0 (2x 7th)<br/>
 15th Level: 6, 6, 6, 6, 6, 3, 2, 0, 0 (4th, 5th)<br/>
-###### 16th Level: 6, 6, 6, 6, 6, 4, 3, 2, 0 (6th, 7th, 2x 8th)<br/>
+16th Level: 6, 6, 6, 6, 6, 4, 3, 2, 0 (6th, 7th, 2x 8th)<br/>
 17th Level: 6, 6, 6, 6, 6, 4, 4, 3, 0 (7th, 8th)<br/>
-###### 18th Level: 6, 6, 6, 6, 6, 4, 4, 3, 2 (2x 9th)<br/>
+18th Level: 6, 6, 6, 6, 6, 4, 4, 3, 2 (2x 9th)<br/>
 19th Level: 6, 6, 6, 6, 6, 4, 4, 4, 2 (8th)<br/>
 20th Level: 6, 6, 6, 6, 6, 5, 4, 4, 3 (6th, 9th)<br/>
 21th Level: 6, 6, 6, 6, 6, 5, 5, 5, 3 (7th, 8th)<br/>
