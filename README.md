@@ -9,46 +9,46 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 5. Alternative Sorcerer Spell Progression<br/>
 
 Vanilla Spell Selection:<br/>
-1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br\>
-2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (0th)<br\>
-3rd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br\>
-4th Level: 3, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br\>
-5th Level: 4, 2, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br\>
-6th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (3rd)<br\>
-7th Level: 5, 3, 2, 0, 0, 0, 0, 0, 0 (1st, 2nd, 3rd)<br\>
-8th Level: 5, 3, 2, 1, 0, 0, 0, 0, 0 (4th)<br\>
-9th Level: 5, 4, 3, 2, 0, 0, 0, 0, 0 (2nd, 3rd, 4th)<br\>
-10th Level: 5, 4, 3, 2, 1, 0, 0, 0, 0 (5th)<br\>
-11th Level: 5, 5, 4, 3, 2, 0, 0, 0, 0 (2nd, 3rd, 4th, 5th)<br\>
-12th Level: 5, 5, 4, 3, 2, 1, 0, 0, 0 (6th)<br\>
-13th Level: 5, 5, 4, 4, 3, 2, 0, 0, 0 (4th, 5th, 6th)<br\>
-14th Level: 5, 5, 4, 4, 3, 2, 1, 0, 0 (7th)<br\>
-15th Level: 5, 5, 4, 4, 4, 3, 2, 0, 0 (5th, 6th, 7th)<br\>
-16th Level: 5, 5, 4, 4, 4, 3, 2, 1, 0 (8th)<br\>
-17th Level: 5, 5, 4, 4, 4, 3, 3, 2, 0 (7th, 8th)<br\>
-18th Level: 5, 5, 4, 4, 4, 3, 3, 2, 1 (9th)<br\>
-19th Level: 5, 5, 4, 4, 4, 3, 3, 3, 2 (8th, 9th)<br\>
-20th Level: 5, 5, 4, 4, 4, 3, 3, 3, 3 (9th)<br\>
-21th Level: 5, 5, 4, 4, 4, 4, 3, 3, 3 (7th)<br\>
-22th Level: 5, 5, 5, 4, 4, 4, 4, 3, 3 (3rd, 8th)<br\>
-23th Level: 5, 5, 5, 5, 4, 4, 4, 4, 3 (4th, 8th)<br\>
-24th Level: 5, 5, 5, 5, 4, 4, 4, 4, 3 (0th)<br\>
-25th Level: 5, 5, 5, 5, 4, 4, 4, 4, 4 (9th)<br\>
-26th Level: 5, 5, 5, 5, 4, 4, 4, 4, 4 (0th)<br\>
-27th Level: 5, 5, 5, 5, 4, 4, 4, 4, 4 (0th)<br\>
-28th Level: 5, 5, 5, 5, 5, 4, 4, 4, 4 (5th)<br\>
-29th Level: 5, 5, 5, 5, 5, 4, 4, 4, 4 (0th)<br\>
-30th Level: 5, 5, 5, 5, 5, 5, 4, 4, 4 (6th)<br\>
-31th Level: 5, 5, 5, 5, 5, 5, 5, 4, 4 (7th)<br\>
-32th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (8th)<br\>
-33th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br\>
-34th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br\>
-35th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br\>
-36th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (9th)<br\>
-37th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br\>
-38th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br\>
-39th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br\>
-40th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br\>
+1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
+2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (0th)<br/>
+3rd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+4th Level: 3, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
+5th Level: 4, 2, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
+6th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (3rd)<br/>
+7th Level: 5, 3, 2, 0, 0, 0, 0, 0, 0 (1st, 2nd, 3rd)<br/>
+8th Level: 5, 3, 2, 1, 0, 0, 0, 0, 0 (4th)<br/>
+9th Level: 5, 4, 3, 2, 0, 0, 0, 0, 0 (2nd, 3rd, 4th)<br/>
+10th Level: 5, 4, 3, 2, 1, 0, 0, 0, 0 (5th)<br/>
+11th Level: 5, 5, 4, 3, 2, 0, 0, 0, 0 (2nd, 3rd, 4th, 5th)<br/>
+12th Level: 5, 5, 4, 3, 2, 1, 0, 0, 0 (6th)<br/>
+13th Level: 5, 5, 4, 4, 3, 2, 0, 0, 0 (4th, 5th, 6th)<br/>
+14th Level: 5, 5, 4, 4, 3, 2, 1, 0, 0 (7th)<br/>
+15th Level: 5, 5, 4, 4, 4, 3, 2, 0, 0 (5th, 6th, 7th)<br/>
+16th Level: 5, 5, 4, 4, 4, 3, 2, 1, 0 (8th)<br/>
+17th Level: 5, 5, 4, 4, 4, 3, 3, 2, 0 (7th, 8th)<br/>
+18th Level: 5, 5, 4, 4, 4, 3, 3, 2, 1 (9th)<br/>
+19th Level: 5, 5, 4, 4, 4, 3, 3, 3, 2 (8th, 9th)<br/>
+20th Level: 5, 5, 4, 4, 4, 3, 3, 3, 3 (9th)<br/>
+21st Level: 5, 5, 4, 4, 4, 4, 3, 3, 3 (7th)<br/>
+22nd Level: 5, 5, 5, 4, 4, 4, 4, 3, 3 (3rd, 8th)<br/>
+23rd Level: 5, 5, 5, 5, 4, 4, 4, 4, 3 (4th, 8th)<br/>
+24th Level: 5, 5, 5, 5, 4, 4, 4, 4, 3 (0th)<br/>
+25th Level: 5, 5, 5, 5, 4, 4, 4, 4, 4 (9th)<br/>
+26th Level: 5, 5, 5, 5, 4, 4, 4, 4, 4 (0th)<br/>
+27th Level: 5, 5, 5, 5, 4, 4, 4, 4, 4 (0th)<br/>
+28th Level: 5, 5, 5, 5, 5, 4, 4, 4, 4 (5th)<br/>
+29th Level: 5, 5, 5, 5, 5, 4, 4, 4, 4 (0th)<br/>
+30th Level: 5, 5, 5, 5, 5, 5, 4, 4, 4 (6th)<br/>
+31st Level: 5, 5, 5, 5, 5, 5, 5, 4, 4 (7th)<br/>
+32nd Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (8th)<br/>
+33rd Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br/>
+34th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br/>
+35th Level: 5, 5, 5, 5, 5, 5, 5, 5, 4 (0th)<br/>
+36th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (9th)<br/>
+37th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
+38th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
+39th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
+40th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
 
 New:<br/>
 
