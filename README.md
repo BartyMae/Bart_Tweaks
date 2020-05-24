@@ -9,17 +9,17 @@
 8. Alternative Constitution Bonuses
 
 Droppable/Movable NPC Items<br/>
-Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.
+Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.<br/>
 
 Alternative Sorcerer Spell Progression<br/>
 
 Vanilla Spell Selection:<br/>
-1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
-2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (0th)<br/>
-3rd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
-4th Level: 3, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
-5th Level: 4, 2, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
-6th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (3rd)<br/>
+#1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
+##2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (0th)<br/>
+###3rd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
+####4th Level: 3, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
+#####5th Level: 4, 2, 0, 0, 0, 0, 0, 0, 0 (1st, 2nd)<br/>
+######6th Level: 4, 2, 1, 0, 0, 0, 0, 0, 0 (3rd)<br/>
 7th Level: 5, 3, 2, 0, 0, 0, 0, 0, 0 (1st, 2nd, 3rd)<br/>
 8th Level: 5, 3, 2, 1, 0, 0, 0, 0, 0 (4th)<br/>
 9th Level: 5, 4, 3, 2, 0, 0, 0, 0, 0 (2nd, 3rd, 4th)<br/>
