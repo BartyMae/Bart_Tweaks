@@ -12,3 +12,5 @@ BEGIN
     END
   END
 END
+
+COPY ~bart_tweaks/droppable_npc_items/ITEM_USE.2da~ ~override~
