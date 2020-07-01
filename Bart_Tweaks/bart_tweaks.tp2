@@ -1,7 +1,6 @@
-//Basic TP2 Stuff
 BACKUP ~bart_tweaks/backup~
 AUTHOR ~Bartimaeus~
-VERSION ~Version 1.1.2~
+VERSION ~Version 1.1.3~
 NO_IF_EVAL_BUG
 LANGUAGE "English" "english" ~bart_tweaks/languages/english.tra~
 
@@ -28,6 +27,12 @@ INCLUDE ~bart_tweaks/lib/no_random_treasures.tpa~
 // -----------------------------
 BEGIN ~Droppable NPC Items~
 INCLUDE ~bart_tweaks/lib/droppable_npc_items.tpa~
+
+// -----------------------------
+// Revised Shapeshifting for SCS
+// -----------------------------
+BEGIN ~Revised Shapeshifting for SCS~
+INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
 
 // -----------------------------
 // Alternative Sorcerer Spell Progression

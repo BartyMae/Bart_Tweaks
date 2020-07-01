@@ -1,0 +1,163 @@
+@100 = ~Bear Shapeshift Token~
+@101 = ~This token enables the druid who created it to shapeshift at will into a bear. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Bear (- HD):
+ STR 18/00, DEX 12, CON -
+ AC 6, THACO -, APR 3
+ 1D8 Slashing (Claws +1)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Usable By:
+ Creator~
+@102 = ~Spider Shapeshift Token~
+@103 = ~This token enables the avenger druid who created it to shapeshift at will into a spider. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Spider (- HD):
+ STR 16, DEX 18, CON -
+ AC 4, THACO -, APR 2
+ 1D8 Piercing (Legs +1)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Web
+ Venomous: target suffers 2 poison damage every round for 5 rounds (save vs. poison neg.)
+
+Usable By:
+ Creator~
+@104 = ~Wolf Shapeshift Token~
+@105 = ~This token enables the druid who created it to shapeshift at will into a wolf. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Wolf (- HD):
+ STR 17, DEX 18, CON -
+ AC 4, THACO -, APR 2
+ 1D8 Piercing (Bite +1)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Usable By:
+ Creator~
+@106 = ~Salamander Shapeshifting Token~
+@107 = ~This token enables the avenger druid who created it to shapeshift at will into a salamander. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Salamander (- HD):
+ STR 18/76, DEX 19, CON -
+ AC 2, THACO -, APR 2
+ 1D6 Piercing (Spear +2)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -50%, ER 50%, AR 0%
+
+Special Characteristics:
+ Fiery: target suffers 1D6 fire damage
+
+Usable By:
+ Creator~
+@108 = ~Wyvern Shapeshift Token~
+@109 = ~This token enables the avenger druid who created it to shapeshift at will into a wyvern. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Wyvern (- HD):
+ STR 16, DEX 14, CON -
+ AC 1, THACO -, APR 2
+ 2D8 Slashing (Claws & Bite +2)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Entangle, Grease, Hold, Poison, Sleep, Slow, Stun, and Web
+ Wyvern Bite: target suffers 2 poison damage every second for 2 rounds (save vs. poison at -2 neg.)
+ 
+Usable By:
+ Creator~
+@110 = ~Lesser Werewolf Token~
+@111 = ~This token enables the shapeshifter druid who created it to shapeshift at will into a lesser werewolf. While in this form, the druid is unable to speak or cast spells, but gains the prodigious strength and speed of the werewolf. Unlike a true werewolf, however, the druid is still affected by non-magical weapons.
+
+STATISTICS:
+
+Lesser Werewolf (- HD):
+ STR 18/76, DEX 16, CON -
+ AC 4, THACO -, APR 1
+ 1D8 Slashing/Piercing (Claws & Bite)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 10%
+
+Usable By:
+ Creator~
+@112 = ~Werewolf Token~
+@113 = ~This token enables the shapeshifter druid who created it to shapeshift at will into a werewolf. While in this form, the druid is unable to speak or cast spells, but gains the prodigious strength and speed of the werewolf.
+
+STATISTICS:
+
+Werewolf (- HD):
+ STR 19, DEX 17, CON -
+ AC 0, THACO -, APR 2
+ 1D12 Slashing/Piercing (Claws & Bite +1)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 20%
+ Protected Against: Normal Weapons
+
+Usable By:
+ Creator~
+@114 = ~Greater Werewolf Token~
+@115 = ~This token enables the shapeshifter druid who created it to shapeshift at will into a greater werewolf. While in this form, the druid is unable to speak or cast spells, but gains the prodigious strength and speed of the werewolf.
+
+STATISTICS:
+
+Greater Werewolf (- HD):
+ STR 21, DEX 20, CON -
+ AC -4, THACO -, APR 2
+ 2D8 Slashing/Piercing (Claws & Bite +3)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 50%, CR 50%, ER 50%, AR 50%
+
+Special Characteristics:
+ Magic Resistance: 40%
+ Protected Against: Normal Weapons
+ Regeneration: 1 hp/sec
+
+Usable By:
+ Creator~
+@116 = ~Earth Elemental Shapeshifting Token~
+@117 = ~This token enables the druid who created it to shapeshift at will into a greater earth elemental. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Greater Earth Elemental (- HD):
+ STR 23, DEX 8, CON -
+ 2D10 Crushing (Fist +3)
+ AC 0, THAC0 -, APR 2
+ SR 40%, CR 0%, PR 40%, MR 40%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
+@118 = ~Fire Elemental Shapeshifting Token~
+@119 = ~This token enables the druid who created it to shapeshift at will into a greater fire elemental. While in this form, the druid is unable to speak or cast spells.
+
+STATISTICS:
+
+Greater Fire Elemental (- HD):
+ STR 18, DEX 19, CON -
+ 2D8 Slashing/Fire (Fist +3)
+ AC 1, THAC0 -, APR 2
+ SR 20%, CR 20%, PR 20%, MR 20%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Poison, Polymorph, Normal Weapons, Sleep, and Stun~

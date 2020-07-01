@@ -1,0 +1,69 @@
+COPY ~bart_tweaks\shapeshifting\dw#shbrp.itm~     ~override~
+  SAY NAME1 @100    SAY UNIDENTIFIED_DESC @101
+  SAY NAME2 @100    SAY IDENTIFIED_DESC   @101
+COPY ~bart_tweaks\shapeshifting\dw#shnbr.itm~     ~override~
+  SAY NAME1 @100    SAY UNIDENTIFIED_DESC @101
+  SAY NAME2 @100    SAY IDENTIFIED_DESC   @101
+
+COPY ~bart_tweaks\shapeshifting\dw#shspi.itm~     ~override~
+  SAY NAME1 @102    SAY UNIDENTIFIED_DESC @103
+  SAY NAME2 @102    SAY IDENTIFIED_DESC   @103
+COPY ~bart_tweaks\shapeshifting\dw#shnsp.itm~     ~override~
+  SAY NAME1 @102    SAY UNIDENTIFIED_DESC @103
+  SAY NAME2 @102    SAY IDENTIFIED_DESC   @103
+
+COPY ~bart_tweaks\shapeshifting\dw#shwol.itm~     ~override~
+  SAY NAME1 @104    SAY UNIDENTIFIED_DESC @105
+  SAY NAME2 @104    SAY IDENTIFIED_DESC   @105
+COPY ~bart_tweaks\shapeshifting\dw#shnwo.itm~     ~override~
+  SAY NAME1 @104    SAY UNIDENTIFIED_DESC @105
+  SAY NAME2 @104    SAY IDENTIFIED_DESC   @105
+
+COPY ~bart_tweaks\shapeshifting\dw#shsal.itm~     ~override~
+  SAY NAME1 @106    SAY UNIDENTIFIED_DESC @107
+  SAY NAME2 @106    SAY IDENTIFIED_DESC   @107
+COPY ~bart_tweaks\shapeshifting\dw#shsal.itm~     ~override~
+  SAY NAME1 @106    SAY UNIDENTIFIED_DESC @107
+  SAY NAME2 @106    SAY IDENTIFIED_DESC   @107
+
+COPY ~bart_tweaks\shapeshifting\dw#shwyv.itm~     ~override~
+  SAY NAME1 @108    SAY UNIDENTIFIED_DESC @109
+  SAY NAME2 @108    SAY IDENTIFIED_DESC   @109
+COPY ~bart_tweaks\shapeshifting\dw#shnwy.itm~     ~override~
+  SAY NAME1 @108    SAY UNIDENTIFIED_DESC @109
+  SAY NAME2 @108    SAY IDENTIFIED_DESC   @109
+
+COPY ~bart_tweaks\shapeshifting\dw#shwe1.itm~     ~override~
+  SAY NAME1 @110    SAY UNIDENTIFIED_DESC @111
+  SAY NAME2 @110    SAY IDENTIFIED_DESC   @111
+COPY ~bart_tweaks\shapeshifting\dw#shnw1.itm~     ~override~
+  SAY NAME1 @110    SAY UNIDENTIFIED_DESC @111
+  SAY NAME2 @110    SAY IDENTIFIED_DESC   @111
+
+COPY ~bart_tweaks\shapeshifting\dw#shwe2.itm~     ~override~
+  SAY NAME1 @112    SAY UNIDENTIFIED_DESC @113
+  SAY NAME2 @112    SAY IDENTIFIED_DESC   @113
+COPY ~bart_tweaks\shapeshifting\dw#shnw2.itm~     ~override~
+  SAY NAME1 @112    SAY UNIDENTIFIED_DESC @113
+  SAY NAME2 @112    SAY IDENTIFIED_DESC   @113
+
+COPY ~bart_tweaks\shapeshifting\dw#shwe3.itm~     ~override~
+  SAY NAME1 @114    SAY UNIDENTIFIED_DESC @115
+  SAY NAME2 @114    SAY IDENTIFIED_DESC   @115
+COPY ~bart_tweaks\shapeshifting\dw#shnw3.itm~     ~override~
+  SAY NAME1 @114    SAY UNIDENTIFIED_DESC @115
+  SAY NAME2 @114    SAY IDENTIFIED_DESC   @115
+
+COPY ~bart_tweaks\shapeshifting\dw#shear.itm~     ~override~
+  SAY NAME1 @116    SAY UNIDENTIFIED_DESC @117
+  SAY NAME2 @116    SAY IDENTIFIED_DESC   @117
+COPY ~bart_tweaks\shapeshifting\dw#shnea.itm~     ~override~
+  SAY NAME1 @116    SAY UNIDENTIFIED_DESC @117
+  SAY NAME2 @116    SAY IDENTIFIED_DESC   @117
+
+COPY ~bart_tweaks\shapeshifting\dw#shfir.itm~     ~override~
+  SAY NAME1 @118    SAY UNIDENTIFIED_DESC @119
+  SAY NAME2 @118    SAY IDENTIFIED_DESC   @119
+COPY ~bart_tweaks\shapeshifting\dw#shnfi.itm~     ~override~
+  SAY NAME1 @118    SAY UNIDENTIFIED_DESC @119
+  SAY NAME2 @118    SAY IDENTIFIED_DESC   @119
