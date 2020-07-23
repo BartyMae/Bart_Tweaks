@@ -3,11 +3,12 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
-5. Set Summonable Flag
-6. Alternative Sorcerer Spell Progression<br/>
-7. Alternative Weapon Mastery<br/>
-8. Alternative Wisdom Bonus Spells
-9. Alternative Constitution Bonuses
+5. Revised Shapeshifting for SCS<br/>
+6. Set Summonable Flag
+7. Alternative Sorcerer Spell Progression<br/>
+8. Alternative Weapon Mastery<br/>
+9. Alternative Wisdom Bonus Spells<br/>
+10. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -22,7 +23,7 @@ Removes all random treasures from every creature in the game's inventories. Almo
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.<br/>
 
 ## Revised Shapeshifting for SCS<br/>
-Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats.
+Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.
 
 ## Set Summonable Flag<br/>
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install.<br/>
