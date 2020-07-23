@@ -14,7 +14,7 @@
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
 
 ## Debug Ring<br/>
-Grants the enitre party immunity to damage and most harmful effects while anyone wears it, a huge THAC0 and damage boost, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
+While anyone is wearing it, grants the enitre party: immunity to damage and most harmful effects, a huge THAC0 and damage boost, instant and aura-cleansing spellcasting, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
 
 ## No Random Treasures<br/>
 Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work.<br/>
