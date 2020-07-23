@@ -222,7 +222,7 @@ The overall effect is that sorcerers get more powerful by initially having both 
 ## Alternative Wisdom Spell Bonuses<br/>
 
 ### Vanilla:<br/>
-The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a wisdom score of 18. This alternative table was developed with the idea of having 18 have the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner around the value of 18. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sense.<br/>
+The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sense.<br/>
 
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
