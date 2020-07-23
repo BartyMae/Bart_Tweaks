@@ -3,7 +3,7 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
-5. Set Summonables Flag
+5. Set Summonable Flag
 6. Alternative Sorcerer Spell Progression<br/>
 7. Alternative Weapon Mastery<br/>
 8. Alternative Wisdom Bonus Spells
