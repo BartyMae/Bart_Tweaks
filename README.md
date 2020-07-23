@@ -4,7 +4,7 @@
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
 5. Revised Shapeshifting for SCS<br/>
-6. Set Summonable Flag
+6. Set Summonable Flag<br/>
 7. Alternative Sorcerer Spell Progression<br/>
 8. Alternative Weapon Mastery<br/>
 9. Alternative Wisdom Bonus Spells<br/>
@@ -17,7 +17,7 @@ Makes it so there is no reputation penalty from transforming into the Slayer. Sh
 Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL"). Grants the party immunity to damage and most harmful effects while anyone wears it, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities.<br/>
 
 ## No Random Treasures<br/>
-Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work to deal with.<br/>
+Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work.<br/>
 
 ## Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.<br/>
