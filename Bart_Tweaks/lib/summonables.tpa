@@ -1,0 +1,162 @@
+ACTION_IF (FILE_EXISTS_IN_GAME ~gnollsu.cre~) THEN BEGIN // Detect if there is a summonables cap
+  COPY_EXISTING_REGEXP GLOB ~gnollsu.cre~ ~override~
+    PATCH_IF (~%SOURCE_SIZE%~ > ~0x0~) BEGIN
+      READ_BYTE 0x275 gender
+	  PATCH_PRINT ~Summonables gender: %gender%~
+    END
+END
+
+ACTION_FOR_EACH resource IN // Standard summonables
+  ~batsu~
+  ~dogwasu~
+  ~skellesu~
+  ~skelgrsu~
+  ~wolfsu~
+  ~catjagsu~
+  ~hamasu~
+  ~nymphsu~
+  ~dvnymph~
+  ~snakegsu~
+  ~servsu~
+  ~bearcasu~
+  ~smoundsu~
+  ~bearposu~
+  ~gibbersu~
+  ~hobarcsu~
+  ~hobshasu~
+  ~jellgrsu~
+  ~jellocsu~
+  ~spidgisu~
+  ~spidswsu~
+  ~shadowsu~
+  ~dvwraith~
+  ~wraithsu~
+  ~ogregrsu~
+  ~ogremasu~
+  ~elfirpr~
+  ~elfirpr2~
+  ~elfirpr3~
+  ~elfirsu~
+  ~elfirsu1~
+  ~elfirsu2~
+  ~elfirsu3~
+  ~elfirsu4~
+  ~elfirsuw~
+  ~elairsu1~
+  ~elairsu2~
+  ~elairsu3~
+  ~elairsuw~
+  ~elearpr~
+  ~elearpr2~
+  ~elearpr3~
+  ~elearsu~
+  ~elearsu1~
+  ~elearsu2~
+  ~elearsu3~
+  ~elearsu4~
+  ~elearsuw~
+  ~dvstalk~
+  ~stalke~
+  ~wyvernsu~
+  ~wyvgresu~
+  ~skelwasu~
+  ~nishrusu~
+  ~sword01~
+  ~dvefreet~
+  ~efreetsu~
+  ~dvdjinni~
+  ~djinnisu~
+  ~haksu~
+  ~otyughsu~
+  ~umbhulsu~
+  ~wolfgrsu~
+
+  ~bersersu~
+  ~berser02~
+  ~berser03~
+  ~catliowp~
+  ~dogwawp~
+  ~moondog~
+  ~shakti~
+  ~smound02~
+  ~spidfgsu~
+  ~sword02~
+  ~sword68~
+  ~sword69~
+  ~tomegol1~
+  ~tomegol2~
+  ~tomegol3~
+  ~tomegol4~
+
+  ~basillsu~
+  ~basilgsu~
+  ~bearblsu~
+  ~bearbrsu~
+  ~bearcasu~
+  ~beargrsu~
+  ~bearposu~
+  ~carriosu~
+  ~catliosu~
+  ~dogwisu~
+  ~ettercsu~
+  ~ghastgsu~
+  ~ghastsu~
+  ~ghoulsu~
+  ~gnlcapsu~
+  ~gnollsu~
+  ~hobgobsu~
+  ~jaguarsu~
+  ~koboldsu~
+  ~ogrelesu~
+  ~ogresu~
+  ~rabbitsu~
+  ~spidphsu~
+  ~tasloisu~
+  ~wolfdisu~
+  ~wolfwisu~
+  ~wolfwwsu~
+  ~worgsu~
+  ~wyvbabsu~
+  ~xvartsu~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
+    COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
+      WRITE_BYTE 0x275 %gender%
+  END
+END
+
+ACTION_FOR_EACH resource IN // Gated summonables
+  ~elemcryo~
+  ~elemchan~
+  ~elemhydr~
+  ~elemimix~
+  ~elemogre~
+  ~elemsunn~
+  ~elemyanc~
+  ~elemzaam~
+  ~devagood~
+  ~devaevil~
+  ~dvdeathk~
+  ~demnabsu~
+  ~demglasu~
+  ~dempitsu~
+  ~plangood~
+  ~planevil~
+
+  ~FL#ARCSU~
+  ~FL#BALSU~
+  ~FL#CORSU~
+  ~FL#GELSU~
+  ~FL#GLASU~
+  ~FL#NABSU~
+  ~FL#NYCSU~
+  ~FL#SKESU~
+  ~FL#ULTSU~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
+    COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      WRITE_BYTE 0x275 0x9
+    END
+  END
+END

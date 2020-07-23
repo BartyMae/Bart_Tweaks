@@ -1,6 +1,6 @@
 BACKUP ~bart_tweaks/backup~
 AUTHOR ~Bartimaeus~
-VERSION ~Version 1.1.4~
+VERSION ~Version 1.1.5~
 NO_IF_EVAL_BUG
 LANGUAGE "English" "english" ~bart_tweaks/languages/english.tra~
 
@@ -33,6 +33,12 @@ INCLUDE ~bart_tweaks/lib/droppable_npc_items.tpa~
 // -----------------------------
 BEGIN ~Revised Shapeshifting for SCS~
 INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
+
+// -----------------------------
+// Set Summonable Flags
+// -----------------------------
+BEGIN ~Set Summonable Flags~
+INCLUDE ~bart_tweaks/lib/summonables.tpa~
 
 // -----------------------------
 // Alternative Sorcerer Spell Progression
