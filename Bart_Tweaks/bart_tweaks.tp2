@@ -35,9 +35,9 @@ BEGIN ~Revised Shapeshifting for SCS~
 INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
 
 // -----------------------------
-// Set Summonable Flags
+// Set Summonable Flag
 // -----------------------------
-BEGIN ~Set Summonable Flags~
+BEGIN ~Set Summonable Flag~
 INCLUDE ~bart_tweaks/lib/summonables.tpa~
 
 // -----------------------------
