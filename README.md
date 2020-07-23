@@ -23,12 +23,13 @@ Removes all random treasures from every creature in the game's inventories. Almo
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.<br/>
 
 ## Revised Shapeshifting for SCS<br/>
-Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.
+Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
 ## Set Summonable Flag<br/>
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
+The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts to start with, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same level progression as base class mages (previously, they progressed a bit slower). Compare at level 7 from vanilla to new for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, only refitted for sorcerers.<br/>
 
 ### Vanilla Spell Selection:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
