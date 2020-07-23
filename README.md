@@ -14,7 +14,7 @@
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
 
 ## Debug Ring<br/>
-Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL"). Grants the party immunity to damage and most harmful effects while anyone wears it, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities.<br/>
+Grants the party immunity to damage and most harmful effects while anyone wears it, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
 
 ## No Random Treasures<br/>
 Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work.<br/>
@@ -26,10 +26,10 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
 ## Set Summonable Flag<br/>
-Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install.<br/>
+Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
-The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts to start with, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same level progression as base class mages (previously, they progressed a bit slower). Compare at level 7 from vanilla to new for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, only refitted for sorcerers.<br/>
+The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts to start with, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same level progression as base class mages (previously, they progressed a bit slower). Compare at level 7 from vanilla to new for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
 
 ### Vanilla Spell Selection:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
@@ -222,6 +222,8 @@ The overall effect is that sorcerers get more powerful by initially having both 
 ## Alternative Wisdom Spell Bonuses<br/>
 
 ### Vanilla:<br/>
+The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a wisdom score of 18. This alternative table was developed with the idea of having 18 have the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner around the value of 18. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sense.<br/>
+
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
 15: 2, 1, 0, 0, 0, 0, 0 (2nd)<br/>
@@ -253,6 +255,8 @@ The overall effect is that sorcerers get more powerful by initially having both 
 25: 3, 3, 3, 3, 2, 2, 1 (4th, 6th)<br/>
 
 ## Alternative Constitution Bonuses</br>
+3rd Edition-style Constitution, with the addition of some very slow regeneration that makes resting actually have some value if you have high Constitution characters but no clerical healing spells. A character with a Constitution of 10 would receive exactly one more hitpoint from resting for 8 hours, while a character with a Constitution of 18 would receive just two more hitpoints, with a much bigger scaling up once you go beyond that into exceptional constitution territory. It doesn't sound like much, but it wasn't designed to be powerful, just to help a little in the early stages of BG1 when you don't have enough healing spells readily available and you find resting 3 times in a row to be distasteful.
+
 01: -3 HP on level up, no regeneration, -5 fatigue bonus<br/>
 02: -2 HP on level up, no regeneration, -4 fatigue bonus<br/>
 03: -2 HP on level up, no regeneration, -4 fatigue bonus<br/>
