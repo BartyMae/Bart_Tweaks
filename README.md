@@ -29,7 +29,7 @@ Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the S
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
-The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts to start with, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same level progression as base class mages (previously, they progressed a bit slower). Compare at level 7 from vanilla to new for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
+The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a bit slower). Compare at level 7 from vanilla to new for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
 
 ### Vanilla Spell Selection:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
