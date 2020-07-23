@@ -9,8 +9,23 @@
 8. Alternative Wisdom Bonus Spells
 9. Alternative Constitution Bonuses
 
+## No Reputation Loss from Slayer Form<br/>
+Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
+
+## Debug Ring<br/>
+Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL"). Grants the party immunity to damage and most harmful effects while anyone wears it, massive regeneration, the ability to restore spells, charm (with no hostile reaction) and kill creatures, and some other utility abilities.<br/>
+
+## No Random Treasures<br/>
+Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work to deal with.<br/>
+
 ## Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.<br/>
+
+## Revised Shapeshifting for SCS<br/>
+Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats.
+
+## Set Summonable Flag<br/>
+Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
 
