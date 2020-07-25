@@ -1,2 +1,7 @@
 COPY ~bart_tweaks/weapon_mastery/wspatck.2da~ ~override~
 COPY ~bart_tweaks/weapon_mastery/wspecial.2da~ ~override~
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~TobEx_ini/TobExTweak.ini~) THEN BEGIN
+  COPY "TobEx_ini/TobExTweak.ini" "TobEx_ini/TobExTweak.ini"
+    REPLACE_TEXTUALLY ~Engine:Weapon Specialisation Number of Attacks Mod=0~ ~Engine:Weapon Specialisation Number of Attacks Mod=1~
+END
