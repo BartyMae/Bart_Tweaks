@@ -1,6 +1,6 @@
 BACKUP ~bart_tweaks/backup~
 AUTHOR ~Bartimaeus~
-VERSION ~Version 1.1.6~
+VERSION ~Version 1.1.7~
 NO_IF_EVAL_BUG
 LANGUAGE "English" "english" ~bart_tweaks/languages/english.tra~
 
