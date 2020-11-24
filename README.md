@@ -29,9 +29,17 @@ Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the S
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
-The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a bit slower). Compare the two vanilla tables to the two revised tables at level 7 for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
+The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a little bit slower). Compare the two vanilla tables to the two revised tables at levels 7 and 12 for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
 
-### Vanilla Spell Selection:<br/>
+Vanilla 7th level spell selections: 5, 3, 2, 0, 0, 0, 0, 0, 0<br/>
+New 7th level spell selections: 4, 3, 2, 1, 0, 0, 0, 0, 0<br/>
+Effect: A 4th level spell selection where previously there were no selections at all, but receive one less spell selection at 1st and 4th level. This is the same table as a non-specialist mage for amount of memorizations, except instead transposed to spell selections.<br/>
+
+Vanilla 7th level memorizations: 6, 6, 4, 0, 0, 0, 0, 0, 0<br/>
+New 7th level memorizations: 5, 4, 3, 2, 0, 0, 0, 0, 0<br/>
+Effect: Two casts of the 4th level slot, one less first level cast, two less second level casts, and one less third level cast. This is the same table as a specialist mage for amount of memorizations.<br/>
+
+### Complete Vanilla Spell Selection Table:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
 2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (0th)<br/>
 3rd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
@@ -73,7 +81,7 @@ The overall effect is that sorcerers get more powerful by initially having both 
 39th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
 40th Level: 5, 5, 5, 5, 5, 5, 5, 5, 5 (0th)<br/>
 
-### New Spell Selection:<br/>
+### Complete New Spell Selection Table:<br/>
 1st Level: 1, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
 2nd Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
 3rd Level: 2, 1, 0, 0, 0, 0, 0, 0, 0 (2nd)<br/>
@@ -125,7 +133,7 @@ The overall effect is that sorcerers get more powerful by initially having both 
 49th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
 50th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
 
-### Vanilla Spell Table:<br/>
+### Complete Vanilla Spell Table:<br/>
 1st Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (3x 1st)<br/>
 2nd Level: 4, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
 3rd Level: 5, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
@@ -167,7 +175,7 @@ The overall effect is that sorcerers get more powerful by initially having both 
 39th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
 40th Level: 6, 6, 6, 6, 6, 6, 6, 6, 6 (0th)<br/>
 
-### New Spell Table:<br/>
+### Complete New Spell Table:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
 2nd Level: 3, 0, 0, 0, 0, 0, 0, 0, 0 (1st)<br/>
 3rd Level: 3, 2, 0, 0, 0, 0, 0, 0, 0 (2x 2nd)<br/>
