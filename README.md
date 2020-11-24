@@ -29,15 +29,15 @@ Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the S
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
-The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a little bit slower). Compare the two vanilla tables to the two revised tables at levels 7 and 12 for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
+The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a little bit slower). Compare the two vanilla tables to the two revised tables at select levels (such as 7) for a good idea on how it shifts spell progression to be more sensible. Enitrely based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
 
 Vanilla 7th level spell selections: 5, 3, 2, 0, 0, 0, 0, 0, 0<br/>
 New 7th level spell selections: 4, 3, 2, 1, 0, 0, 0, 0, 0<br/>
-Effect: A 4th level spell selection where previously there were no selections at all, but receive one less spell selection at 1st and 4th level. This is the same table as a non-specialist mage for amount of memorizations, except instead transposed to spell selections.<br/>
+Effect: A 4th level spell selection where previously there were no selections at all, but receive one less spell selection at 1st and 4th level. This is the same table as a non-specialist mage for their amount of memorizations, except instead transposed to spell selections.<br/>
 
 Vanilla 7th level memorizations: 6, 6, 4, 0, 0, 0, 0, 0, 0<br/>
 New 7th level memorizations: 5, 4, 3, 2, 0, 0, 0, 0, 0<br/>
-Effect: Two casts of the 4th level slot, one less first level cast, two less second level casts, and one less third level cast. This is the same table as a specialist mage for amount of memorizations.<br/>
+Effect: Two casts of the 4th level slot, one less first level cast, two less second level casts, and one less third level cast. This is the same table as a specialist mage for their amount of memorizations.<br/>
 
 ### Complete Vanilla Spell Selection Table:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
