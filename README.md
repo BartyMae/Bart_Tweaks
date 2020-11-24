@@ -20,7 +20,7 @@ While anyone is wearing it, grants the entire party: immunity to damage, magic, 
 Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work.<br/>
 
 ## Droppable/Movable NPC Items<br/>
-Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows.<br/>
+Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows, and possibly others - this wasn't coded robustly.<br/>
 
 ## Revised Shapeshifting for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
@@ -29,7 +29,7 @@ Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the S
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
-The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a bit slower). Compare at level 7 from vanilla to new for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
+The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a bit slower). Compare the two vanilla tables to the two revised tables at level 7 for a good idea on how it shifts spell progression to be more sensible. Heavily based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
 
 ### Vanilla Spell Selection:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
@@ -245,7 +245,7 @@ The idea here is to not *require* grandmastery as mods like True Grandmastery do
 ## Alternative Wisdom Spell Bonuses<br/>
 
 ### Vanilla:<br/>
-The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sense.<br/>
+The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
