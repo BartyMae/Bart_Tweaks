@@ -15,23 +15,16 @@
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
 
 ## Debug Ring<br/>
-<<<<<<< HEAD
-While anyone is wearing it, grants the entire party: immunity to damage, magic, and most harmful effects, a huge THAC0 and damage boost, instant and aura-cleansing spellcasting, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
-=======
 While anyone is wearing it, grants the entire party: immunity to damage, magic, and most harmful effects, a huge THAC0 and damage boost, instant and aura-cleansing spellcasting, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
->>>>>>> Lses random treasure, alternative lore table
 
 ## No Random Treasures<br/>
 Removes all random treasures from every creature in the game's inventories (including mod-added creatures, assuming they use the vanilla random item tables). The vast majority of it (especially in BG1) is worthless and annoying busybody work.<br/>
 
 ## Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows, and possibly others - this wasn't coded robustly.<br/>
-<<<<<<< HEAD
-=======
 
 ## Set Summonable Flag<br/>
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
->>>>>>> Lses random treasure, alternative lore table
 
 ## Revised Shapeshifting for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
@@ -285,11 +278,8 @@ The idea here is to not *require* grandmastery as mods like True Grandmastery do
 The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
 ### Vanilla:<br/>
-<<<<<<< HEAD
 The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
-=======
->>>>>>> Lses random treasure, alternative lore table
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
 15: 2, 1, 0, 0, 0, 0, 0 (2nd)<br/>
