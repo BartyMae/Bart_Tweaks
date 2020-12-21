@@ -57,11 +57,11 @@ The overall effect is that sorcerers get more powerful by initially having both 
 
 Vanilla 7th level spell selections: 5, 3, 2, 0, 0, 0, 0, 0, 0<br/>
 New 7th level spell selections: 4, 3, 2, 1, 0, 0, 0, 0, 0<br/>
-Effect: A 4th level spell selection where previously there were no selections at all, but receive one less spell selection at 1st and 4th level. This is the same table as a non-specialist mage for their amount of memorizations, except instead transposed to spell selections.<br/>
+Effect: Gain a 4th level spell selection, but lose one 1st level spell selection. This is the same table as a non-specialist mage for their amount of memorizations, except instead transposed to spell selections.<br/>
 
 Vanilla 7th level memorizations: 6, 6, 4, 0, 0, 0, 0, 0, 0<br/>
 New 7th level memorizations: 5, 4, 3, 2, 0, 0, 0, 0, 0<br/>
-Effect: Two casts of the 4th level slot, one less first level cast, two less second level casts, and one less third level cast. This is the same table as a specialist mage for their amount of memorizations.<br/>
+Effect: Gain two 4th level spell casts, but lose one 1st level, two 2nd level, and one 3rd level spell casts. This is the same table as a specialist mage for their amount of memorizations.<br/>
 
 ### Complete Vanilla Spell Selection Table:<br/>
 1st Level: 2, 0, 0, 0, 0, 0, 0, 0, 0 (2x 1st)<br/>
