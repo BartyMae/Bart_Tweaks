@@ -3,30 +3,61 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
-5. Revised Shapeshifting for SCS<br/>
-6. Set Summonable Flag<br/>
-7. Alternative Sorcerer Spell Progression<br/>
-8. Alternative Weapon Mastery<br/>
-9. Alternative Wisdom Bonus Spells<br/>
-10. Alternative Constitution Bonuses<br/>
+5. Set Summonable Flag<br/>
+6. Revised Shapeshifting for SCS<br/>
+7. Alternative Lore Table
+8. Alternative Sorcerer Spell Progression<br/>
+9. Alternative Weapon Mastery<br/>
+10. Alternative Wisdom Bonus Spells<br/>
+11. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
 
 ## Debug Ring<br/>
+<<<<<<< HEAD
 While anyone is wearing it, grants the entire party: immunity to damage, magic, and most harmful effects, a huge THAC0 and damage boost, instant and aura-cleansing spellcasting, massive regeneration, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
+=======
+While anyone is wearing it, grants the entire party: immunity to damage, magic, and most harmful effects, a huge THAC0 and damage boost, instant and aura-cleansing spellcasting, a large movement speed bonus, the ability to restore spells, charm (with no hostile reaction) and kill creatures (while getting credit/XP), and some other utility abilities. Add to inventory via console: "CLUAConsole:CreateItem("RINGKILL").<br/>
+>>>>>>> Lses random treasure, alternative lore table
 
 ## No Random Treasures<br/>
-Removes all random treasures from every creature in the game's inventories. Almost all of it is worthless and simply annoying/busybody work.<br/>
+Removes all random treasures from every creature in the game's inventories (including mod-added creatures, assuming they use the vanilla random item tables). The vast majority of it (especially in BG1) is worthless and annoying busybody work.<br/>
 
 ## Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows, and possibly others - this wasn't coded robustly.<br/>
+<<<<<<< HEAD
+=======
+
+## Set Summonable Flag<br/>
+Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
+>>>>>>> Lses random treasure, alternative lore table
 
 ## Revised Shapeshifting for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
-## Set Summonable Flag<br/>
-Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
+## Alternative Lore Table<br/>
+As learned practioners of magic, mages, clerics, and bards should receive faster lore progression than others.<br/>
+
+### Vanilla:<br/>
+Mage: 4<br/>
+Fighter: 1<br/>
+Cleric: 2<br/>
+Thief: 3<br/>
+Bard: 6<br/>
+Paladin: 1<br/>
+Druid: 2<br/>
+Ranger: 1<br/>
+
+### New:<br/>
+Mage: 5<br/>
+Fighter: 1<br/>
+Cleric: 3<br/>
+Thief: 2<br/>
+Bard: 7<br/>
+Paladin: 1<br/>
+Druid: 2<br/>
+Ranger: 1<br/>
 
 ## Alternative Sorcerer Spell Progression<br/>
 The overall effect is that sorcerers get more powerful by initially having both less spell selections and number of casts, but having them scale better and much more sensibily over time. Furthermore, now sorcerers also have the same spellcasting level progression as base class mages (previously, they progressed a little bit slower). Compare the two vanilla tables to the two revised tables at select levels (such as 7) for a good idea on how it shifts spell progression to be more sensible. Entirely based on Anthology Tweaks' P&P spell progression table for mages, refitted for sorcerers.<br/>
@@ -251,10 +282,14 @@ The idea here is to not *require* grandmastery as mods like True Grandmastery do
 5 Star: 3 THAC0, 5 DAMAGE, 3 SPEED, 1.5 APR<br/>
 
 ## Alternative Wisdom Spell Bonuses<br/>
-
-### Vanilla:<br/>
 The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
+### Vanilla:<br/>
+<<<<<<< HEAD
+The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
+
+=======
+>>>>>>> Lses random treasure, alternative lore table
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
 15: 2, 1, 0, 0, 0, 0, 0 (2nd)<br/>
