@@ -8,64 +8,100 @@ LANGUAGE "English" "english" ~bart_tweaks/languages/english.tra~
 // No Reputation Loss from Slayer Form
 // -----------------------------
 BEGIN ~No Reputation Loss from Slayer Form~
+DESIGNATED 100
 INCLUDE ~bart_tweaks/lib/slayer_cheat.tpa~
 
 // -----------------------------
 // Debug Ring
 // -----------------------------
 BEGIN ~Debug Ring~
+DESIGNATED 110
 INCLUDE ~bart_tweaks/lib/debug_ring.tpa~
 
 // -----------------------------
 // No Random Treasures
 // -----------------------------
 BEGIN ~No Random Treasures~
+DESIGNATED 200
 INCLUDE ~bart_tweaks/lib/no_random_treasures.tpa~
 
 // -----------------------------
 // Droppable NPC Items
 // -----------------------------
 BEGIN ~Droppable NPC Items~
+DESIGNATED 210
 INCLUDE ~bart_tweaks/lib/droppable_npc_items.tpa~
+
+// -----------------------------
+// Non-Upgradeable Carsomyr
+// -----------------------------
+BEGIN ~Non-Upgradeable Carsomyr~
+DESIGNATED 220
+INCLUDE ~bart_tweaks/lib/carsomyr.tpa~
 
 // -----------------------------
 // Set Summonable Flag
 // -----------------------------
 BEGIN ~Set Summonable Flag~
+DESIGNATED 300
 INCLUDE ~bart_tweaks/lib/summonables.tpa~
 
 // -----------------------------
-// Revised Shapeshifting for SCS
+// Revised Shapeshifting Tokens for SCS
 // -----------------------------
-BEGIN ~Revised Shapeshifting for SCS~
+BEGIN ~Revised Shapeshifting Tokens for SCS~
+DESIGNATED 310
 INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
+
+// -----------------------------
+// Elementals for SR/atweaks
+// -----------------------------
+BEGIN ~SR Elementals~
+DESIGNATED 321
+SUBCOMPONENT 320
+INCLUDE ~bart_tweaks/lib/elementals_sr.tpa~
+
+BEGIN ~atweaks Elementals~
+DESIGNATED 322
+SUBCOMPONENT 320
+INCLUDE ~bart_tweaks/lib/elementals_atweaks.tpa~
+
+BEGIN ~SR/atweaks Hybrid Elementals~
+DESIGNATED 323
+SUBCOMPONENT 320
+INCLUDE ~bart_tweaks/lib/elementals_hybrid.tpa~
 
 // -----------------------------
 // Alternative Lore Progression
 // -----------------------------
 BEGIN ~Alternative Lore Progression~
+DESIGNATED 400
 INCLUDE ~bart_tweaks/lib/lore_progression.tpa~
 
 // -----------------------------
 // Alternative Sorcerer Spell Progression
 // -----------------------------
 BEGIN ~Alternative Sorcerer Spell Progression~
+DESIGNATED 410
 INCLUDE ~bart_tweaks/lib/sorcerer_spell_progression.tpa~
 
 // -----------------------------
 // Alternative Weapon Mastery
 // -----------------------------
 BEGIN ~Alternative Weapon Mastery~
+DESIGNATED 420
 INCLUDE ~bart_tweaks/lib/weapon_mastery.tpa~
 
 // -----------------------------
 // Alternative Wisdom Bonus Spells
 // -----------------------------
 BEGIN ~Alternative Wisdom Bonus Spells~
+DESIGNATED 430
 INCLUDE ~bart_tweaks/lib/wisdom_bonus_spells.tpa~
 
 // -----------------------------
 // Alternative Constitution Bonuses
 // -----------------------------
 BEGIN ~Alternative Constitution Bonuses~
+DESIGNATED 440
 INCLUDE ~bart_tweaks/lib/constitution_bonus.tpa~

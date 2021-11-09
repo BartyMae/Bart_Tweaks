@@ -1,0 +1,28 @@
+INCLUDE ~bart_tweaks/lib/macros.tpa~
+
+DEFINE_PATCH_MACRO carsomyr BEGIN
+  SPRINT t1 ~.0~
+  SPRINT t2 ~10~
+  REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~sw2h19.itm~) BEGIN
+  COPY_EXISTING ~sw2h19.itm~ ~override\sw2h10.itm~
+    WRITE_SHORT 0x34 20000
+    WRITE_SHORT 0x42 100
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 166 END
+	LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 166 target = 1 parameter1 = 10 timing = 2 probability1 = 100 END
+    SPRINT text_update ~carsomyr~
+    LPM update_item_descriptions
+  BUT_ONLY
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~botsmith.dlg~) BEGIN // Cespenar
+  COPY_EXISTING ~botsmith.dlg~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~PartyHasItem("sw2h10")~
+                        ~PartyHasItem("sw2h10")
+!PartyHasItem("sw2h10")~
+    END
+  BUT_ONLY
+END

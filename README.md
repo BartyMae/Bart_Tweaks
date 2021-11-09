@@ -26,8 +26,11 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 ## Set Summonable Flag<br/>
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
 
-## Revised Shapeshifting for SCS<br/>
+## Revised Shapeshifting Tokens for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
+
+## Non-Upgradeable Carsomyr<br/>
+Replaces the non-upgraded version of Carsomyr with the upgraded version, but sets its magic resistance bonus to +10%, its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
 
 ## Alternative Lore Table<br/>
 As learned practioners of magic, mages, clerics, and bards should receive faster lore progression than others.<br/>
@@ -254,7 +257,7 @@ Effect: Gain two 4th level spell casts, but lose one 1st level, two 2nd level, a
 ## Alternative Weapon Mastery<br/>
 Relies on ToBEx, and intended to be used on top of TB#Tweaks' "Everybody gets ApR from proficiency, only Warriors from level" WSPATCK subcomponent - does not work with EEs due to EEs not having the functionality required.<br/>
 
-In vanilla, fighter-types (including rangers, paladins et al.) receive a 0.5 bonus to ApR at 7th and at 13th level each if they have at least one proficiency point in the weapon type they're using. Additionally, 2 stars will grant fighters another full ApR, while additional points would not grant any additional ApR. Non-fighter-types (e.g. swashbucklers) would not receive any kind of ApR bonuses no matter what proficiencies they had. The vanilla description for weapon proficencies state that for each additional point beyond 1, the character should receive an additional 0.5 ApR - this was obviously not the case in any sense.<br/>
+In vanilla, fighter-types (including rangers, paladins, et al.) receive a 0.5 bonus to ApR at 7th and at 13th level each if they have at least one proficiency point in the weapon type they're using. Additionally, 2 stars will grant fighters another full ApR, while additional points would not grant any additional ApR. Non-fighter-types (e.g. swashbucklers) would not receive any kind of ApR bonuses no matter what proficiencies they had. The vanilla description for weapon proficencies state that for each additional point beyond 1, the character should receive an additional 0.5 ApR - this was obviously not the case in any sense.<br/>
 
 The intention of this component is to provide a more linear progression of the ApR and damage/THAC0 while not going quite as nuts as other mods do with it. All classes receive full bonuses (including ApR) from the weapon profiencies listed in the "New" table below so long as they can attain said weapon proficencies, while fighter-types additionally and exclusively receive 0.5 ApR bonuses at 7th level and 13th level (for a total of 1). At Grandmastery (5 stars), a 13th level fighter will have a total of 3.5 ApR - Mastery would instead be 3.0. A non-fighter-type at Mastery (3 stars) would instead have 2.0 ApR, receiving the +1 ApR bonus from Mastery but not the fighter-type ApR bonus.<br/>
 
@@ -278,6 +281,8 @@ The idea here is to not *require* grandmastery as mods like True Grandmastery do
 The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
 ### Vanilla:<br/>
+The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
+
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
 15: 2, 1, 0, 0, 0, 0, 0 (2nd)<br/>
