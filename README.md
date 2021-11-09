@@ -1,15 +1,18 @@
-# Bart_Tweaks<br/>
+# Bart Tweaks<br/>
 1. No Reputation Loss from Slayer Form (Cheat)<br/>
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
-5. Set Summonable Flag<br/>
-6. Revised Shapeshifting for SCS<br/>
-7. Alternative Lore Table
-8. Alternative Sorcerer Spell Progression<br/>
-9. Alternative Weapon Mastery<br/>
-10. Alternative Wisdom Bonus Spells<br/>
-11. Alternative Constitution Bonuses<br/>
+5. Non-Upgradeable Carsomyr<br/>
+6. Set Summonable Flag<br/>
+7. Revised Shapeshifting for SCS<br/>
+8. SR/atweaks Elementals<br/>
+9. SR/atweaks Fiends<br/>
+10. Alternative Lore Table<br/>
+11. Alternative Sorcerer Spell Progression<br/>
+12. Alternative Weapon Mastery<br/>
+13. Alternative Wisdom Bonus Spells<br/>
+14. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -23,14 +26,28 @@ Removes all random treasures from every creature in the game's inventories (incl
 ## Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows, and possibly others - this wasn't coded robustly.<br/>
 
+## Non-Upgradeable Carsomyr<br/>
+Replaces the non-upgraded version of Carsomyr with the upgraded version, but sets its magic resistance bonus to +10%, its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
+
 ## Set Summonable Flag<br/>
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
 
 ## Revised Shapeshifting Tokens for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
-## Non-Upgradeable Carsomyr<br/>
-Replaces the non-upgraded version of Carsomyr with the upgraded version, but sets its magic resistance bonus to +10%, its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
+## SR/atweaks Elementals<br/>
+Meant to be used with when both Spell Revisions and atweaks' P&P Elementals are installed, this components solves some incompatibilities between the two with their summonable elementals in three possible ways:<br/>
+1. Use SR's summonable elementals and disable atweaks'.<br/>
+2. Use atweaks' summonable elementals and disable SR's.<br/>
+3. Create a fusion between them using atweaks' creatures but SR-styled descriptions and properties.<br/>
+
+## SR/atweaks Fiends<br/>
+Meant to be used with when both Spell Revisions and atweaks' P&P Fiends are installed, this components solves some incompatibilities between the two with their summonable fiends in two possible ways:<br/>
+1. Restore SR's summonable fiends.<br/>
+2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and properties.<br/>
+
+## Revised Shapeshifting Tokens for SCS<br/>
+Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
 ## Alternative Lore Table<br/>
 As learned practioners of magic, mages, clerics, and bards should receive faster lore progression than others.<br/>
@@ -281,7 +298,6 @@ The idea here is to not *require* grandmastery as mods like True Grandmastery do
 The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
 ### Vanilla:<br/>
-The Wisdom spell bonuses for priests are incomprehensible and inconsistent, especially once you're past a Wisdom score of 18. This alternative table was developed with the idea of having 18 give the same bonus spells as vanilla (18 being the "best" you can get without stat increases, and because 18's bonuses are coincidentally very logical), while smoothing out everything before and after that in a more consistent and systematic manner. The overall effect is that the lower wisdom scores stay mostly the same (with just a few minor shifts), while everything past 18 is slightly nerfed in the favor of consistency and sensibility.<br/>
 
 13: 1, 0, 0, 0, 0, 0, 0 (1st)<br/>
 14: 2, 0, 0, 0, 0, 0, 0 (1st)<br/>
@@ -326,18 +342,18 @@ The Wisdom spell bonuses for priests are incomprehensible and inconsistent, espe
 08: -1 HP on level up, no regeneration, -1 fatigue bonus<br/>
 09: -1 HP on level up, no regeneration, -1 fatigue bonus<br/>
 10: 0 HP on level up, 1 hp/2400 second regeneration, 0 fatigue bonus<br/>
-11: 0 HP on level up, 1 hp/2400 second regeneration, 0 fatigue bonus<br/>
-12: 1 HP on level up, 1 hp/2100 second regeneration, 1 fatigue bonus<br/>
-13: 1 HP on level up, 1 hp/2100 second regeneration, 1 fatigue bonus<br/>
-14: 2 HP on level up, 1 hp/1800 second regeneration, 2 fatigue bonus<br/>
-15: 2 HP on level up, 1 hp/1800 second regeneration, 2 fatigue bonus<br/>
-16: 3 HP on level up, 1 hp/1500 second regeneration, 3 fatigue bonus<br/>
-17: 3 HP on level up, 1 hp/1500 second regeneration, 3 fatigue bonus<br/>
-18: 4 HP on level up, 1 hp/1200 second regeneration, 4 fatigue bonus<br/>
-19: 4 HP on level up, 1 hp/900 second regeneration, 4 fatigue bonus<br/>
-20: 5 HP on level up, 1 hp/600 second regeneration, 5 fatigue bonus<br/>
-21: 5 HP on level up, 1 hp/300 second regeneration, 5 fatigue bonus<br/>
-22: 6 HP on level up, 1 hp/240 second regeneration, 6 fatigue bonus<br/>
-23: 6 HP on level up, 1 hp/180 second regeneration, 6 fatigue bonus<br/>
-24: 7 HP on level up, 1 hp/120 second regeneration, 7 fatigue bonus<br/>
-25: 7 HP on level up, 1 hp/60 second regeneration, 7 fatigue bonus<br/>
+11: 0 HP on level up, 1 hp/2100 second regeneration, 0 fatigue bonus<br/>
+12: 1 HP on level up, 1 hp/1800 second regeneration, 1 fatigue bonus<br/>
+13: 1 HP on level up, 1 hp/1500 second regeneration, 1 fatigue bonus<br/>
+14: 2 HP on level up, 1 hp/1200 second regeneration, 2 fatigue bonus<br/>
+15: 2 HP on level up, 1 hp/900 second regeneration, 2 fatigue bonus<br/>
+16: 3 HP on level up, 1 hp/600 second regeneration, 3 fatigue bonus<br/>
+17: 3 HP on level up, 1 hp/450 second regeneration, 3 fatigue bonus<br/>
+18: 4 HP on level up, 1 hp/300 second regeneration, 4 fatigue bonus<br/>
+19: 4 HP on level up, 1 hp/240 second regeneration, 4 fatigue bonus<br/>
+20: 5 HP on level up, 1 hp/180 second regeneration, 5 fatigue bonus<br/>
+21: 5 HP on level up, 1 hp/120 second regeneration, 5 fatigue bonus<br/>
+22: 6 HP on level up, 1 hp/60 second regeneration, 6 fatigue bonus<br/>
+23: 6 HP on level up, 1 hp/30 second regeneration, 6 fatigue bonus<br/>
+24: 7 HP on level up, 1 hp/12 second regeneration, 7 fatigue bonus<br/>
+25: 7 HP on level up, 1 hp/6 second regeneration, 7 fatigue bonus<br/>
