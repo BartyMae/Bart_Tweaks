@@ -29,9 +29,6 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 ## Non-Upgradeable Carsomyr<br/>
 Replaces the non-upgraded version of Carsomyr with the upgraded version, but sets its magic resistance bonus to +10%, its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
 
-## Set Summonable Flag<br/>
-Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
-
 ## Revised Shapeshifting Tokens for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
@@ -46,8 +43,8 @@ Meant to be used with when both Spell Revisions and atweaks' P&P Fiends are inst
 1. Restore SR's summonable fiends.<br/>
 2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and properties.<br/>
 
-## Revised Shapeshifting Tokens for SCS<br/>
-Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
+## Set Summonable Flag<br/>
+Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>
 
 ## Alternative Lore Table<br/>
 As learned practioners of magic, mages, clerics, and bards should receive faster lore progression than others.<br/>

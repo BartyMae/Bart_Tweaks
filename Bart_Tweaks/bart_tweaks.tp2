@@ -40,36 +40,54 @@ DESIGNATED 220
 INCLUDE ~bart_tweaks/lib/carsomyr.tpa~
 
 // -----------------------------
-// Set Summonable Flag
-// -----------------------------
-BEGIN ~Set Summonable Flag~
-DESIGNATED 300
-INCLUDE ~bart_tweaks/lib/summonables.tpa~
-
-// -----------------------------
 // Revised Shapeshifting Tokens for SCS
 // -----------------------------
 BEGIN ~Revised Shapeshifting Tokens for SCS~
-DESIGNATED 310
+DESIGNATED 300
 INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
 
 // -----------------------------
 // Elementals for SR/atweaks
 // -----------------------------
 BEGIN ~SR Elementals~
-DESIGNATED 321
-SUBCOMPONENT 320
+DESIGNATED 311
+SUBCOMPONENT 310
 INCLUDE ~bart_tweaks/lib/elementals_sr.tpa~
 
 BEGIN ~atweaks Elementals~
+DESIGNATED 312
+SUBCOMPONENT 310
+INCLUDE ~bart_tweaks/lib/elementals_atweaks.tpa~
+
+BEGIN ~SR/atweaks Hybrid Elementals~
+DESIGNATED 313
+SUBCOMPONENT 310
+INCLUDE ~bart_tweaks/lib/elementals_hybrid.tpa~
+
+// -----------------------------
+// Fiends for SR/atweaks
+// -----------------------------
+BEGIN ~SR Fiends~
+DESIGNATED 321
+SUBCOMPONENT 320
+INCLUDE ~bart_tweaks/lib/fiends_sr.tpa~
+
+BEGIN ~atweaks Fiends~
 DESIGNATED 322
 SUBCOMPONENT 320
-INCLUDE ~bart_tweaks/lib/elementals_atweaks.tpa~
+INCLUDE ~bart_tweaks/lib/fiends_atweaks.tpa~
 
 BEGIN ~SR/atweaks Hybrid Elementals~
 DESIGNATED 323
 SUBCOMPONENT 320
-INCLUDE ~bart_tweaks/lib/elementals_hybrid.tpa~
+INCLUDE ~bart_tweaks/lib/fiends_hybrid.tpa~
+
+// -----------------------------
+// Set Summonable Flag
+// -----------------------------
+BEGIN ~Set Summonable Flag~
+DESIGNATED 330
+INCLUDE ~bart_tweaks/lib/summonables.tpa~
 
 // -----------------------------
 // Alternative Lore Progression
