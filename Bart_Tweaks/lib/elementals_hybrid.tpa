@@ -17,29 +17,15 @@ COPY ~bart_tweaks/elementals/sppr601.spl~ ~override~ // Aerial Servant
 COPY ~bart_tweaks/elementals/sppr605.spl~ ~override~ // Conjure Fire Elemental
   SAY NAME1 @202    SAY UNIDENTIFIED_DESC @203
 
-ACTION_FOR_EACH add_spl IN // Conjure Air Elemental
-  ~CLERIC_CONJURE_AIR_ELEMENTAL~
-BEGIN
-  ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]%add_spl%[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
-    LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%add_spl%~ RET spell_res END
-    OUTER_SPRINT $add_spl_spells(~%spell_res%~) ~%add_spl%~
-  END
-END
-ACTION_PHP_EACH add_spl_spells AS %spell_res% => %add_spl% BEGIN
+ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]CLERIC_CONJURE_AIR_ELEMENTAL[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
+  LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~CLERIC_CONJURE_AIR_ELEMENTAL~ RET spell_res END
   COPY ~bart_tweaks/elementals/sppr621.spl~ ~override/%spell_res%.spl~
     SAY NAME1 @204    SAY UNIDENTIFIED_DESC @205
   BUT_ONLY
 END
 
-ACTION_FOR_EACH add_spl IN // Conjure Earth Elemental
-  ~CLERIC_CONJURE_EARTH_ELEMENTAL~
-BEGIN
-  ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]%add_spl%[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
-    LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%add_spl%~ RET spell_res END
-    OUTER_SPRINT $add_spl_spells(~%spell_res%~) ~%add_spl%~
-  END
-END
-ACTION_PHP_EACH add_spl_spells AS %spell_res% => %add_spl% BEGIN
+ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]CLERIC_CONJURE_EARTH_ELEMENTAL[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
+  LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = ~CLERIC_CONJURE_EARTH_ELEMENTAL~ RET spell_res END
   COPY ~bart_tweaks/elementals/sppr622.spl~ ~override/%spell_res%.spl~
     SAY NAME1 @206    SAY UNIDENTIFIED_DESC @207
   BUT_ONLY
