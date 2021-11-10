@@ -4,15 +4,16 @@
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
 5. Non-Upgradeable Carsomyr<br/>
-6. Set Summonable Flag<br/>
-7. Revised Shapeshifting for SCS<br/>
-8. SR/atweaks Elementals<br/>
-9. SR/atweaks Fiends<br/>
-10. Alternative Lore Table<br/>
-11. Alternative Sorcerer Spell Progression<br/>
-12. Alternative Weapon Mastery<br/>
-13. Alternative Wisdom Bonus Spells<br/>
-14. Alternative Constitution Bonuses<br/>
+6. Revised Shapeshifting for SCS<br/>
+7. SR/atweaks Elementals<br/>
+8. SR/atweaks Fiends<br/>
+9. SR/atweaks Call Woodland Beings<br/>
+10. Set Summonable Flag<br/>
+11. Alternative Lore Table<br/>
+12. Alternative Sorcerer Spell Progression<br/>
+13. Alternative Weapon Mastery<br/>
+14. Alternative Wisdom Bonus Spells<br/>
+15. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -33,15 +34,17 @@ Replaces the non-upgraded version of Carsomyr with the upgraded version, but set
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
 
 ## SR/atweaks Elementals<br/>
-Meant to be used with when both Spell Revisions and atweaks' P&P Elementals are installed, this components solves some incompatibilities between the two with their summonable elementals in three possible ways:<br/>
-1. Use SR's summonable elementals and disable atweaks'.<br/>
-2. Use atweaks' summonable elementals and disable SR's.<br/>
-3. Create a fusion between them using atweaks' creatures but SR-styled descriptions and properties.<br/>
+Meant to be used with when both Spell Revisions and atweaks' PnP Fiends are installed, this component solves some incompatibilities with their elemental-summoning spells in two possible ways:<br/>
+1. Restore SR's summonable elementals.<br/>
+2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and spell properties.<br/>
 
 ## SR/atweaks Fiends<br/>
-Meant to be used with when both Spell Revisions and atweaks' P&P Fiends are installed, this components solves some incompatibilities between the two with their summonable fiends in two possible ways:<br/>
+Meant to be used with when both Spell Revisions and atweaks' PnP Fiends are installed, this component solves some incompatibilities with their fiend-summoning spells fiends in two possible ways:<br/>
 1. Restore SR's summonable fiends.<br/>
-2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and properties.<br/>
+2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and spell properties.<br/>
+
+## SR/atweaks Call Woodland Beings<br/>
+Meant to be used with when both Spell Revisions and atweaks' Revised Call Woodland Beings spell are installed, this component solves some incompatibilities with their Call Woodland Beings spell by using atweaks' creatures but SR-styled descriptions and spell properties.<br/>
 
 ## Set Summonable Flag<br/>
 Sets the "is a summonable" flag for all vanilla, SR, and atweaks creatures. Some mods, including atweaks itself, set these incorrectly and therefore must be patched late into the install to function correctly. Should correctly detect and work with "no summonables limits" mods. Does not actually need either SR or atweaks to be installed if you're using it for some other purpose - it will simply patch their creatures if it detects them being there.<br/>

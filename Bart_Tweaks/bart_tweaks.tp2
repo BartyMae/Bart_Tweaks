@@ -1,125 +1,156 @@
 BACKUP ~bart_tweaks/backup~
 AUTHOR ~Bartimaeus~
-VERSION ~Version 1.1.8~
+VERSION ~Version 1.2.0~
+
 NO_IF_EVAL_BUG
-LANGUAGE "English" "english" ~bart_tweaks/languages/english.tra~
+
+LANGUAGE ~English~
+         ~english~
+		 ~bart_tweaks/languages/english.tra~
 
 // -----------------------------
 // No Reputation Loss from Slayer Form
 // -----------------------------
 BEGIN ~No Reputation Loss from Slayer Form~
-DESIGNATED 100
+DESIGNATED 1000
+GROUP ~Random Stuff~
 INCLUDE ~bart_tweaks/lib/slayer_cheat.tpa~
 
 // -----------------------------
 // Debug Ring
 // -----------------------------
 BEGIN ~Debug Ring~
-DESIGNATED 110
+DESIGNATED 1010
+GROUP ~Random Stuff~
 INCLUDE ~bart_tweaks/lib/debug_ring.tpa~
 
 // -----------------------------
 // No Random Treasures
 // -----------------------------
 BEGIN ~No Random Treasures~
-DESIGNATED 200
+DESIGNATED 1020
+GROUP ~Random Stuff~
 INCLUDE ~bart_tweaks/lib/no_random_treasures.tpa~
 
 // -----------------------------
 // Droppable NPC Items
 // -----------------------------
 BEGIN ~Droppable NPC Items~
-DESIGNATED 210
+DESIGNATED 1030
+GROUP ~Random Stuff~
 INCLUDE ~bart_tweaks/lib/droppable_npc_items.tpa~
 
 // -----------------------------
-// Non-Upgradeable Carsomyr
+// Non-Upgradeable Carsomyr for IR
 // -----------------------------
-BEGIN ~Non-Upgradeable Carsomyr~
-DESIGNATED 220
+BEGIN ~Non-Upgradeable Carsomyr for IR~
+DESIGNATED 2000
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~item-rev/setup-item_rev.tp2~ 0) ~Item Revisions must be installed prior to this component.~
 INCLUDE ~bart_tweaks/lib/carsomyr.tpa~
 
 // -----------------------------
 // Revised Shapeshifting Tokens for SCS
 // -----------------------------
 BEGIN ~Revised Shapeshifting Tokens for SCS~
-DESIGNATED 300
+DESIGNATED 2010
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ 4030) ~SCS's "Improved Shapeshifting" must be installed prior to this component.~
 INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
 
 // -----------------------------
 // Elementals for SR/atweaks
 // -----------------------------
-BEGIN ~SR Elementals~
-DESIGNATED 311
-SUBCOMPONENT 310
-INCLUDE ~bart_tweaks/lib/elementals_sr.tpa~
+/* BEGIN ~SR Elementals~
+DESIGNATED 2021
+SUBCOMPONENT ~Elementals for SR/atweaks~
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 190) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
+INCLUDE ~bart_tweaks/lib/elementals_sr.tpa~*/
 
-BEGIN ~atweaks Elementals~
-DESIGNATED 312
-SUBCOMPONENT 310
-INCLUDE ~bart_tweaks/lib/elementals_atweaks.tpa~
-
-BEGIN ~SR/atweaks Hybrid Elementals~
-DESIGNATED 313
-SUBCOMPONENT 310
+BEGIN ~SR/atweaks Elementals~
+DESIGNATED 2022
+SUBCOMPONENT ~Elementals for SR/atweaks~
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 190) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
 INCLUDE ~bart_tweaks/lib/elementals_hybrid.tpa~
 
 // -----------------------------
 // Fiends for SR/atweaks
 // -----------------------------
-BEGIN ~SR Fiends~
-DESIGNATED 321
-SUBCOMPONENT 320
-INCLUDE ~bart_tweaks/lib/fiends_sr.tpa~
+/* BEGIN ~SR Fiends~
+DESIGNATED 2031
+SUBCOMPONENT ~Fiends for SR/atweaks~
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 152) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
+INCLUDE ~bart_tweaks/lib/fiends_sr.tpa~*/
 
-BEGIN ~atweaks Fiends~
-DESIGNATED 322
-SUBCOMPONENT 320
-INCLUDE ~bart_tweaks/lib/fiends_atweaks.tpa~
-
-BEGIN ~SR/atweaks Hybrid Elementals~
-DESIGNATED 323
-SUBCOMPONENT 320
+BEGIN ~SR/atweaks Hybrid Fiends~
+DESIGNATED 2032
+SUBCOMPONENT ~Fiends for SR/atweaks~
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 152) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
 INCLUDE ~bart_tweaks/lib/fiends_hybrid.tpa~
+
+// -----------------------------
+// Call Woodland Beings for SR/atweaks
+// -----------------------------
+BEGIN ~SR/atweaks Call Woodland Beings~
+DESIGNATED 2040
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "Revised Call Woodland Beings spell" must be installed prior to this component.~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 186) ~Spell Revisions and atweaks' "Revised Call Woodland Beings spell" must be installed prior to this component.~
+INCLUDE ~bart_tweaks/lib/call_woodland_beings.tpa~
 
 // -----------------------------
 // Set Summonable Flag
 // -----------------------------
 BEGIN ~Set Summonable Flag~
-DESIGNATED 330
+DESIGNATED 2050
+GROUP ~Fixes/Tweaks for Other Mods~
 INCLUDE ~bart_tweaks/lib/summonables.tpa~
 
 // -----------------------------
 // Alternative Lore Progression
 // -----------------------------
 BEGIN ~Alternative Lore Progression~
-DESIGNATED 400
+DESIGNATED 3000
+GROUP ~Rule Changes~
 INCLUDE ~bart_tweaks/lib/lore_progression.tpa~
 
 // -----------------------------
 // Alternative Sorcerer Spell Progression
 // -----------------------------
 BEGIN ~Alternative Sorcerer Spell Progression~
-DESIGNATED 410
+DESIGNATED 3010
+GROUP ~Rule Changes~
 INCLUDE ~bart_tweaks/lib/sorcerer_spell_progression.tpa~
 
 // -----------------------------
 // Alternative Weapon Mastery
 // -----------------------------
 BEGIN ~Alternative Weapon Mastery~
-DESIGNATED 420
+DESIGNATED 3020
+GROUP ~Rule Changes~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~SETUP-TB#TWEAKS.TP2~ 3600) ~The Bigg Tweak Packs' "WSPATCK for all (Taimon) -> Everybody gets ApR from proficiency, only Warriors from level" must be installed prior to this component.~ 
 INCLUDE ~bart_tweaks/lib/weapon_mastery.tpa~
 
 // -----------------------------
 // Alternative Wisdom Bonus Spells
 // -----------------------------
 BEGIN ~Alternative Wisdom Bonus Spells~
-DESIGNATED 430
+DESIGNATED 3030
+GROUP ~Rule Changes~
 INCLUDE ~bart_tweaks/lib/wisdom_bonus_spells.tpa~
 
 // -----------------------------
 // Alternative Constitution Bonuses
 // -----------------------------
 BEGIN ~Alternative Constitution Bonuses~
-DESIGNATED 440
+DESIGNATED 3040
+GROUP ~Rule Changes~
 INCLUDE ~bart_tweaks/lib/constitution_bonus.tpa~

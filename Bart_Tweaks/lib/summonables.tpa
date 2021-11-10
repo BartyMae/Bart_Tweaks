@@ -97,7 +97,30 @@ BEGIN
   END
 END
 
-ACTION_FOR_EACH resource IN // Gated summonables
+ACTION_FOR_EACH resource IN // Demon summonables
+  ~dvdeathk~
+  ~demnabsu~
+  ~demglasu~
+  ~dempitsu~
+  ~FL#ARCSU~
+  ~FL#BALSU~
+  ~FL#CORSU~
+  ~FL#GELSU~
+  ~FL#GLASU~
+  ~FL#NABSU~
+  ~FL#NYCSU~
+  ~FL#SKESU~
+  ~FL#ULTSU~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
+    COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      WRITE_BYTE 0x275 0x9
+    END
+  END
+END
+
+ACTION_FOR_EACH resource IN // Elemental summonables
   ~elfirpr~
   ~elfirpr2~
   ~elfirpr3~
@@ -130,33 +153,29 @@ ACTION_FOR_EACH resource IN // Gated summonables
   ~elemsunn~
   ~elemyanc~
   ~elemzaam~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
+    COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
+    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
+      WRITE_BYTE 0x275 0x20
+    END
+  END
+END
+
+ACTION_FOR_EACH resource IN // Other summonables
   ~devagood~
   ~devaevil~
   ~dvefreet~
   ~efreetsu~
   ~dvdjinni~
   ~djinnisu~
-  ~dvdeathk~
-  ~demnabsu~
-  ~demglasu~
-  ~dempitsu~
   ~plangood~
   ~planevil~
-
-  ~FL#ARCSU~
-  ~FL#BALSU~
-  ~FL#CORSU~
-  ~FL#GELSU~
-  ~FL#GLASU~
-  ~FL#NABSU~
-  ~FL#NYCSU~
-  ~FL#SKESU~
-  ~FL#ULTSU~
 BEGIN
   ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
     COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
     PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-      WRITE_BYTE 0x275 0x9
+      WRITE_BYTE 0x275 0x20
     END
   END
 END

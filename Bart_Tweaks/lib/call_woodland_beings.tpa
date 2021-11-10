@@ -1,0 +1,2 @@
+COPY ~bart_tweaks/call_woodland_beings/sppr410.spl~ ~override~ // Call Woodland Beings
+  SAY NAME1 @400    SAY UNIDENTIFIED_DESC @401

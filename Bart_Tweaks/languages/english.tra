@@ -146,7 +146,7 @@ Greater Earth Elemental (- HD):
  FR 0%, CR 0%, ER 0%, AR 0%
 
 Special Characteristics:
- Protected Against: Fear, Hold, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
 @118 = ~Fire Elemental Shapeshifting Token~
 @119 = ~This token enables the druid who created it to shapeshift at will into a greater fire elemental. While in this form, the druid is unable to speak or cast spells.
 
@@ -160,4 +160,1253 @@ Greater Fire Elemental (- HD):
  FR 100%, CR 0%, ER 0%, AR 0%
 
 Special Characteristics:
- Protected Against: Fear, Hold, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
+@200=~Aerial Servant~
+@201=~Aerial Servant
+Level: 6
+School: Conjuration
+Sphere: Summoning
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+The caster of this spell summons an Aerial Servant to do their bidding. The servant will attack any enemies of the caster for the duration of the spell or until they are slain.
+
+Aerial Servant (16 HD):
+ ST23, DE20, CO16, IN4, WI6, CH5
+ HP 128, AC 3, THAC0 5, APR 1
+ 8D4 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Entangle, Fear, Disease, Grease, Hold, Normal Weapons, Petrification, Polymorph, Poison, Sleep, Stun, Web
+ Natural Invisibility: permanent improved invisibility
+ Grab: target is entangled for 2 rounds (save vs. breath neg.)~
+@202 = ~Conjure Fire Elemental~
+@203 = ~Conjure Fire Elemental
+Level: 6
+School: Conjuration
+Sphere: Elemental (Fire)
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Fire, and an fire elemental is summoned to the vicinity of the spellcaster. One fire elemental always answers the summons, though there is a 25% chance that a greater fire elemental appears, and a 5% chance that an elder fire elemental is summoned instead. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. Unlike mages, priests do not have to engage in a battle of the wits to control their summoned elemental.
+
+Fire Elemental (12 HD):
+ ST12, DE15, CO12, IN8, WI8, CH8
+ HP 96, AC 2, THAC0 9, APR 1
+ 1D6 Crushing (Fist +3)
+ Saving Throws 7/9/8/8/10, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 2D6 fire damage
+
+Greater Fire Elemental (16 HD):
+ ST14, DE16, CO14, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 1D8 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 25%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 3D6 fire damage
+
+Elder Fire Elemental (20 HD):
+ ST16, DE17, CO16, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 1D10 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 4D6 fire damage~
+@204 = ~Conjure Air Elemental~
+@205 = ~Conjure Air Elemental
+Level: 6
+School: Conjuration
+Sphere: Elemental (Air)
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. One earth elemental always answers the summons, though there is a 25% chance that a greater air elemental appears, and a 5% chance that an elder air elemental is summoned instead. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. Unlike mages, priests do not have to engage in a battle of the wits to control their summoned elemental.
+
+Air Elemental (12 HD):
+ ST12, DE21, CO12, IN8, WI8, CH8
+ HP 96, AC 2, THAC0 9, APR 1
+ 2D10 Crushing (Fist +3)
+ Saving Throws 7/9/8/8/10, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Greater Air Elemental (16 HD):
+ ST14, DE22, CO14, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 3D10 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Magic Resistance: 25%
+
+Elder Air Elemental (20 HD):
+ ST16, DE23, CO16, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 4D10 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun~
+@206 = ~Conjure Earth Elemental~
+@207 = ~Conjure Earth Elemental
+Level: 6
+School: Conjuration
+Sphere: Elemental (Earth)
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. One earth elemental always answers the summons, though there is a 25% chance that a greater earth elemental appears, and a 5% chance that an elder earth elemental is summoned instead. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. Unlike mages, priests do not have to engage in a battle of the wits to control their summoned elemental.
+
+Earth Elemental (12 HD):
+ ST20, DE11, CO18, IN8, WI8, CH8
+ HP 96, AC 2, THAC0 9, APR 1
+ 3D8 Crushing (Fist +3)
+ Saving Throws 7/9/8/8/10, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Greater Earth Elemental (16 HD):
+ ST22, DE12, CO20, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 4D8 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 25%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Known Spells:
+ Earthquake (1x per day)
+
+Elder Earth Elemental (20 HD):
+ ST23, DE13, CO21, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 5D8 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+
+Known Spells:
+ Earthquake (1x per day)~
+@208 = ~Elemental Summoning~
+@209 = ~Elemental Summoning
+Level: Quest
+School: Conjuration
+Sphere: Elemental, Summoning
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the caster to call forth three powerful elementals from the Elemental Planes of Air, Earth, and Fire - one from each plane. There is a 15% chance that elder elementals will appear, otherwise greater elementals will appeare instead. In either case, the elementals remain under the caster's control for the duration of the spell or until they are slain.
+
+Greater Air Elemental (16 HD):
+ ST14, DE22, CO14, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 3D10 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Magic Resistance: 25%
+
+Elder Air Elemental (20 HD):
+ ST16, DE23, CO16, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 4D10 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+
+Greater Earth Elemental (16 HD):
+ ST22, DE12, CO20, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 4D8 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 25%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Known Spells:
+ Earthquake (1x per day)
+
+Elder Earth Elemental (20 HD):
+ ST23, DE13, CO21, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 5D8 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Known Spells:
+ Earthquake (1x per day)
+
+Greater Fire Elemental (16 HD):
+ ST14, DE16, CO14, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 1D8 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 25%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 3D6 fire damage
+
+Elder Fire Elemental (20 HD):
+ ST16, DE17, CO16, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 1D10 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 4D6 fire damage~
+@210 = ~Greater Elemental Summoning~
+@211 = ~Greater Elemental Summoning
+Level: Quest
+School: Conjuration
+Sphere: Elemental, Summoning
+Range: Long
+Duration: 1 turn
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Druids, having a more powerful link to the elements, can cast a stronger version of Elemental Summoning. This spell can summon the elemental princes themselves, randomly chosen from air, earth, or fire. The elemental prince will stay for 1 turn and obey the caster for as long as they remain summoned.
+
+Chan (24 HD):
+ ST18, DE24, CO18, IN18, WI17, CH18
+ HP 90, AC -6, THAC0 5, APR 2
+ 3D10 Crushing (Fist +5)
+ Saving Throws 3/3/4/4/4, AL NG
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 85%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Detect Invisibility (permanent)
+
+Sunnis (24 HD):
+ ST24, DE14, CO22, IN16, WI16, CH17
+ HP 115, AC -7, THAC0 5, APR 2
+ 4D8 Crushing (Fist +5)
+ Saving Throws 3/3/4/4/4, AL NG
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 50%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Detect Invisibility (permanent)
+
+Zaaman Rul (20 HD):
+ ST16, DE17, CO16, IN18, WI16, CH17
+ HP 80, AC -3, THAC0 5, APR 2
+ 1D8 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Detect Invisibility (permanent)
+ Fiery: target suffers 3D6 fire damage~
+@211000 = ~Greater Elemental Summoning
+Level: Quest
+School: Conjuration
+Sphere: Elemental, Summoning
+Range: Long
+Duration: 1 turn
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Druids, having a more powerful link to the elements, can cast a stronger version of Elemental Summoning. This spell can summon the elemental princes themselves, randomly chosen from air, earth, or fire. The elemental prince will stay for 1 turn and obey the caster for as long as they remain summoned.
+
+Chan (24 HD):
+ ST18, DE24, CO18, IN18, WI17, CH18
+ HP 202, AC -6, THAC0 -3, APR 2
+ 3D10 Crushing (Fist +5)
+ Saving Throws 3/3/4/4/4, AL NG
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 85%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Detect Invisibility (permanent)
+
+Sunnis (24 HD):
+ ST24, DE14, CO22, IN16, WI16, CH17
+ HP 230, AC -7, THAC0 -3, APR 2
+ 4D8 Crushing (Fist +5)
+ Saving Throws 3/3/4/4/4, AL NG
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 50%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Detect Invisibility (permanent)
+
+Zaaman Rul (20 HD):
+ ST16, DE17, CO16, IN18, WI16, CH17
+ HP 192, AC -3, THAC0 -3, APR 2
+ 1D8 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Detect Invisibility (permanent)
+ Fiery: target suffers 3D6 fire damage~
+@212 = ~Fire Elemental Transformation~
+@213 = ~Fire Elemental Transformation
+Level: Quest
+School: Alteration
+Sphere: Combat, Elemental (Fire)
+Range: Personal
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+Harnessing the power of fire, this powerful shapechange ability allows the druid to become a fire elemental of immense strength. While shapechanged, the druid gains all the traits and special abilities of an elder fire elemental.
+
+Elder Fire Elemental (20 HD):
+ STR 16, DEX 17, CON 16
+ HP 160, AC 0, THAC0 1, APR 1
+ 1D10 Crushing (Fist +5)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 4D6 fire damage~
+@214 = ~Earth Elemental Transformation~
+@215 = ~Earth Elemental Transformation
+Level: Quest
+School: Alteration
+Sphere: Combat, Elemental (Earth)
+Range: Personal
+Duration: 5 turns
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+Harnessing the power of the earth, this powerful shapechange ability allows the druid to become an earth elemental of immense strength. While shapechanged, the druid gains all the traits and special abilities of an elder earth elemental.
+
+Elder Earth Elemental (20 HD):
+ STR 23, DEX 13, CON 21
+ AC 0, THAC0 1, APR 1
+ 5D8 Crushing (Fist +5)
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun~
+@216 = ~Conjure Lesser Fire Elemental~
+@217 = ~Conjure Lesser Fire Elemental
+Level: 5
+School: Conjuration
+Range: Long
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Fire, and a lesser fire elemental is summoned to the vicinity of the spellcaster. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Lesser Fire Elemental (8 HD):
+ ST10, DE14, CO10, IN7, WI7, CH7
+ HP 64, AC 4, THAC0 13, APR 1
+ 1D4 Crushing (Fist +2)
+ Saving Throws 10/12/11/12/13, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 1D6 fire damage~
+@218 = ~Conjure Lesser Air Elemental~
+@219 = ~Conjure Lesser Air Elemental
+Level: 5
+School: Conjuration
+Range: Long
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Air, and a lesser air elemental is summoned to the vicinity of the spellcaster. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Lesser Air Elemental (8 HD):
+ ST10, DE19, CO10, IN7, WI7, CH7
+ HP 64, AC 4, THAC0 13, APR 1
+ 1D10 Crushing (Fist +2)
+ Saving Throws 10/12/11/12/13, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
+@220 = ~Conjure Lesser Earth Elemental~
+@221 = ~Conjure Lesser Earth Elemental
+Level: 5
+School: Conjuration
+Range: Long
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Earth, and a lesser earth elemental is summoned to the vicinity of the spellcaster. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Lesser Earth Elemental (8 HD):
+ ST19, DE10, CO16, IN7, WI7, CH7
+ HP 64, AC 4, THAC0 13, APR 1
+ 2D8 Crushing (Fist +2)
+ Saving Throws 10/12/11/12/13, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, Normal Weapons, Sleep, and Stun~
+
+@222 = ~Invisible Stalker~
+@223 = ~Invisible Stalker
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons an invisible stalker from the Elemental Plane of Air. This creature obeys and serves the spellcaster in performing whatever tasks are set before it, even if this means being sent to certain death. The creature remains under the caster's control for 8 hours or until it is killed, at which point it will return to its native plane, only slightly annoyed at having to serve a mortal.
+
+Invisible Stalker (8 HD):
+ ST16, DE17, CO14, IN14, WI14, CH11
+ HP 64, AC 3, THAC0 13, APR 1
+ 4D4 Crushing (Fist +3)
+ Saving Throws 10/12/11/12/13, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Curing, Entangle, Fear, Disease, Grease, Hold, Normal Weapons, Petrification, Polymorph, Poison, Sleep, Stun, Web
+ Natural Invisibility: permanent improved invisibility~
+@224 = ~Conjure Fire Elemental~
+@225 = ~Conjure Fire Elemental
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Fire, and an fire elemental is summoned to the vicinity of the spellcaster. One fire elemental always answers the summons, though there is a 25% chance that a greater fire elemental appears, and a 5% chance that an elder fire elemental is summoned instead. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Fire Elemental (12 HD):
+ ST12, DE15, CO12, IN8, WI8, CH8
+ HP 96, AC 2, THAC0 9, APR 1
+ 1D6 Crushing (Fist +3)
+ Saving Throws 7/9/8/8/10, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 2D6 fire damage
+
+Greater Fire Elemental (16 HD):
+ ST14, DE16, CO14, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 1D8 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 25%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 3D6 fire damage
+
+Elder Fire Elemental (20 HD):
+ ST16, DE17, CO16, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 1D10 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+ Fiery: target suffers 4D6 fire damage~
+@226 = ~Conjure Air Elemental~
+@227 = ~Conjure Air Elemental
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. One earth elemental always answers the summons, though there is a 25% chance that a greater air elemental appears, and a 5% chance that an elder air elemental is summoned instead. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Air Elemental (12 HD):
+ ST12, DE21, CO12, IN8, WI8, CH8
+ HP 96, AC 2, THAC0 9, APR 1
+ 2D10 Crushing (Fist +3)
+ Saving Throws 7/9/8/8/10, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Greater Air Elemental (16 HD):
+ ST14, DE22, CO14, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 3D10 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+ Magic Resistance: 25%
+
+Elder Air Elemental (20 HD):
+ ST16, DE23, CO16, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 4D10 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun~
+@228 = ~Conjure Earth Elemental~
+@229 = ~Conjure Earth Elemental
+Level: 6
+School: Conjuration
+Range: Long
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting this spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. One earth elemental always answers the summons, though there is a 25% chance that a greater earth elemental appears, and a 5% chance that an elder earth elemental is summoned instead. Once the elemental appears, the caster must concentrate on the creature for 2 rounds to ensure that the elemental will not turn on them (there is a 15% chance that the elemental will attack the caster). However, after this period has passed, the elemental will do the bidding of the caster for the duration of the spell or until it is slain. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Earth Elemental (12 HD):
+ ST20, DE11, CO18, IN8, WI8, CH8
+ HP 96, AC 2, THAC0 9, APR 1
+ 3D8 Crushing (Fist +3)
+ Saving Throws 7/9/8/8/10, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Greater Earth Elemental (16 HD):
+ ST22, DE12, CO20, IN10, WI10, CH10
+ HP 128, AC 1, THAC0 5, APR 1
+ 4D8 Crushing (Fist +4)
+ Saving Throws 4/6/5/4/7, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 25%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/Normal Weapons, Sleep, and Stun
+
+Known Spells:
+ Earthquake (1x per day)
+
+Elder Earth Elemental (20 HD):
+ ST23, DE13, CO21, IN12, WI12, CH12
+ HP 160, AC 0, THAC0 1, APR 1
+ 5D8 Crushing (Fist +5)
+ Saving Throws 3/5/4/4/6, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Fear, Hold, Petrification, Poison, Polymorph, +1/+2/Normal Weapons, Sleep, and Stun
+
+Known Spells:
+ Earthquake (1x per day)~
+@300 = ~Gate~
+@301 = ~Gate
+Level: 7
+School: Conjuration
+Sphere: All
+Range: Medium
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth one of the most powerful denizens of the Lower Planes. The nature of the fiend corresponds to the alignment of its summoner. A pit fiend appears if the caster is lawfully aligned, a balor appears if the caster is chaotically aligned, and an ultroloth appears if the caster is neither lawfully nor chaotically aligned. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Pit Fiend (13 HD):
+ ST18, DE16, CO16, IN18, WI16, CH25
+ HP 104, AC -5, THAC0 7, APR 5
+ 2D4 Slashing (Claws +5)
+ Saving Throws 5/7/6/5/8, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1/+2 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Detect Invisibility (permanent)
+ Aura of Fear: opponents flee in terror for 5 rounds (save vs. spell at -2 neg.)
+ Diseasing: 25% chance target suffers a -4 penalty to strength for 1 hour
+ Constrict: 25% chance target is entangled and suffers 2D4 crushing damage per round for 2 rounds (save vs. breath neg.)
+ Viperous: 15% chance target suffers 5 poison damage per second for 5 rounds (save vs. death neg.)
+
+Known Spells: Charm Person (at will), Fireball (at will), Hold Person (at will), Improved Invisibility (at will), Symbol of Pain (1x per day), Wish (1x per day)
+
+Balor (20 HD):
+ ST21, DE18, CO20, IN20, WI16, CH25
+ HP 104, AC -8, THAC0 4, APR 2
+ 1D8 Slashing (Long Sword +5)
+ 1D4 Piercing (Whip +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+ Body Flames: creatures who strike the balor in melee suffer 3D6 fire damage
+ Vorpal: 15% chance target dies
+ Flaming Whip: target is entangled and suffers 3D6 fire damage per round for 2 rounds (save vs. breath neg.)
+
+Known Spells: Dispel Magic (at will), Remove Magic (at will), Symbol of Death (at will), Symbol of Fear (at will), Symbol of Pain (at will), Symbol of Stun (at will)
+
+Ultroloth (15 HD):
+ ST21, DE18, CO18, IN20, WI20, CH25
+ HP 130, AC -8, THAC0 7, APR 2
+ 1D12 Magic (Energy Burst +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+
+Known Spells: Charm Person (at will), Color Spray (at will), Animate Dead (at will), Call Lightning (at will), Fire Storm (1x per day)~
+@301000 = ~Gate
+Level: 7
+School: Conjuration
+Sphere: All
+Range: Medium
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth one of the most powerful denizens of the Lower Planes. During the casting of the spell, the priest must choose the nature of the fiend to be summoned. If the caster is lawfully aligned, they may choose to summon a pit fiend baatezu or an ultroloth yugoloth; a chaotically aligned caster may choose to summon a balor tanar'ri or an ultroloth yugoloth; while a caster who is neither lawfully nor chaotically aligned may choose between any of the three kinds of fiends. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Pit Fiend (13 HD):
+ ST18, DE16, CO16, IN18, WI16, CH25
+ HP 104, AC -5, THAC0 7, APR 5
+ 2D4 Slashing (Claws +5)
+ Saving Throws 5/7/6/5/8, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1/+2 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Detect Invisibility (permanent)
+ Aura of Fear: opponents flee in terror for 5 rounds (save vs. spell at -2 neg.)
+ Diseasing: 25% chance target suffers a -4 penalty to strength for 1 hour
+ Constrict: 25% chance target is entangled and suffers 2D4 crushing damage per round for 2 rounds (save vs. breath neg.)
+ Viperous: 15% chance target suffers 5 poison damage per second for 5 rounds (save vs. death neg.)
+
+Known Spells: Charm Person (at will), Fireball (at will), Hold Person (at will), Improved Invisibility (at will), Symbol of Pain (1x per day), Wish (1x per day)
+
+Ultroloth (15 HD):
+ ST21, DE18, CO18, IN20, WI20, CH25
+ HP 130, AC -8, THAC0 7, APR 2
+ 1D12 Magic (Energy Burst +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+
+Known Spells: Charm Person (at will), Color Spray (at will), Animate Dead (at will), Call Lightning (at will), Fire Storm (1x per day)
+
+Balor (20 HD):
+ ST21, DE18, CO20, IN20, WI16, CH25
+ HP 104, AC -8, THAC0 4, APR 2
+ 1D8 Slashing (Long Sword +5)
+ 1D4 Piercing (Whip +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+ Body Flames: creatures who strike the balor in melee suffer 3D6 fire damage
+ Vorpal: 15% chance target dies
+ Flaming Whip: target is entangled and suffers 3D6 fire damage per round for 2 rounds (save vs. breath neg.)
+
+Known Spells: Dispel Magic (at will), Remove Magic (at will), Symbol of Death (at will), Symbol of Fear (at will), Symbol of Pain (at will), Symbol of Stun (at will)~
+@302 = ~Cacofiend~
+@303 = ~Cacofiend
+Level: 7
+School: Conjuration
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth a denizen of the Lower Planes. The nature of the fiend corresponds to the alignment of its summoner. A cornugon appears if the caster is lawfully aligned, a nabassu appears if the caster is chaotically aligned, and an arcanaloth appears if the caster is neither lawfully nor chaotically aligned. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Cornugon (10 HD):
+ ST18, DE17, CO17, IN16, WI14, CH16
+ HP 80, AC -2, THAC0 11, APR 2
+ 1D4 Piercing (Whip +3)
+ Saving Throws 8/10/9/9/11, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Aura of Fear: opponents flee in terror for 2 rounds (save vs. spell neg.)
+ Wounding: 50% chance target suffers 1 bleeding damage per round for 5 rounds
+ Barbed Whip: 50% chance target is stunned for 2 rounds (save vs. death at -2 neg.)
+
+Known Spells: Charm Person (at will), Lightning Bolt (3x per day)
+
+Nabassu (7 HD):
+ ST19, DE14, CO19, IN14, WI15, CH18
+ HP 76, AC -5, THAC0 13, APR 3
+ 2D4 Slashing (Claws +3)
+ Saving Throws 10/12/11/12/13, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Aura of Paralysis: opponents are paralyzed for 5 rounds (save vs. death neg.)
+ Level Drain: target is drained two levels
+ Death Gaze (1x per day): target transforms into a ghast after 5 rounds (save vs. spell neg.)
+
+Known Spells: Silence (at will), Vampiric Touch (at will)
+
+Arcanaloth (12 HD):
+ ST17, DE15, CO15, IN20, WI18, CH19
+ HP 120, AC -8, THAC0 9, APR 3
+ 1D4 Slashing (Claws +3)
+ 2D6 Slashing (Bite +3)
+ Saving Throws 10/12/11/12/13, AL NE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Weaken: 50% chance target suffers a cumulative -1 penalty to THACO for 8 hours
+
+Known Spells:
+ 1° Charm Person (at will), Blindness (x2), Chromatic Orb, Magic Missile (at will), Spook
+ 2° Horror, Invisibility (at will), Melf's Acid Arrow (x2), Mirror Image
+ 3° Animate Dead (at will), Flame Arrow, Lightning Bolt, Melf's Minute Meteors (x2)
+ 4° Greater Malison, Secret Word (x2), Stoneskin
+ 5° Breach, Chaos, Domination, Hold Monster
+ 6° Chain Lightning~
+@303000 = ~Cacofiend
+Level: 7
+School: Conjuration
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth a denizen of the Lower Planes. During the casting of the spell, the mage must choose the nature of the fiend to be summoned. If the caster is lawfully aligned, they may choose to summon a cornugon baatezu or an arcanaloth yugoloth; a chaotically aligned caster may choose to summon a nabassu tanar'ri or an arcanaloth yugoloth; while a caster who is neither lawfully nor chaotically aligned may choose between any of the three kinds of fiends. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Cornugon (10 HD):
+ ST18, DE17, CO17, IN16, WI14, CH16
+ HP 80, AC -2, THAC0 11, APR 2
+ 1D4 Piercing (Whip +3)
+ Saving Throws 8/10/9/9/11, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Aura of Fear: opponents flee in terror for 2 rounds (save vs. spell neg.)
+ Wounding: 50% chance target suffers 1 bleeding damage per round for 5 rounds
+ Barbed Whip: 50% chance target is stunned for 2 rounds (save vs. death at -2 neg.)
+
+Known Spells: Charm Person (at will), Lightning Bolt (3x per day)
+
+Arcanaloth (12 HD):
+ ST17, DE15, CO15, IN20, WI18, CH19
+ HP 120, AC -8, THAC0 9, APR 3
+ 1D4 Slashing (Claws +3)
+ 2D6 Slashing (Bite +3)
+ Saving Throws 10/12/11/12/13, AL NE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Weaken: 50% chance target suffers a cumulative -1 penalty to THACO for 8 hours
+
+Known Spells:
+ 1° Charm Person (at will), Blindness (x2), Chromatic Orb, Magic Missile (at will), Spook
+ 2° Horror, Invisibility (at will), Melf's Acid Arrow (x2), Mirror Image
+ 3° Animate Dead (at will), Flame Arrow, Lightning Bolt, Melf's Minute Meteors (x2)
+ 4° Greater Malison, Secret Word (x2), Stoneskin
+ 5° Breach, Chaos, Domination, Hold Monster
+ 6° Chain Lightning
+
+Nabassu (7 HD):
+ ST19, DE14, CO19, IN14, WI15, CH18
+ HP 76, AC -5, THAC0 13, APR 3
+ 2D4 Slashing (Claws +3)
+ Saving Throws 10/12/11/12/13, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Aura of Paralysis: opponents are paralyzed for 5 rounds (save vs. death neg.)
+ Level Drain: target is drained two levels
+ Death Gaze (1x per day): target transforms into a ghast after 5 rounds (save vs. spell neg.)
+
+Known Spells: Silence (at will), Vampiric Touch (at will)~
+@304 = ~Summon Fiend~
+@305 = ~Summon Fiend
+Level: 8
+School: Conjuration
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth one of the more powerful denizens of the Lower Planes. The nature of the fiend corresponds to the alignment of its summoner. A gelugon appears if the caster is lawfully aligned, a glabrezu appears if the caster is chaotically aligned, and a nycaloth appears if the caster is neither lawfully nor chaotically aligned. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Gelugon (11 HD):
+ ST18, DE17, CO18, IN18, WI18, CH16
+ HP 88, AC -3, THAC0 9, APR 3
+ 1D6 Piercing (Spear +4)
+ 3D4 Crushing (Tail +4)
+ Saving Throws 7/9/8/8/10, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 50%, CR 100%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Detect Invisibility (permanent)
+ Aura of Fear: opponents flee in terror for 2 rounds (save vs. spell neg.)
+ Icy: target suffers 1D6 cold damage
+ Slowing: target is slowed for 5 rounds (save vs. death neg.)
+ Paralyzing: target is paralyzed for 2 rounds (save vs. death neg.)
+
+Known Spells: Charm Person (at will)
+
+Glabrezu (10 HD):
+ ST20, DE18, CO20, IN16, WI13, CH22
+ HP 80, AC -7, THAC0 11, APR 5
+ 1D6 Crushing (Fist +4)
+ Saving Throws 8/10/9/9/11, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+ Grab: 25% target is entangled for 2 rounds (save vs. breath neg.)
+
+Known Spells: Burning Hands (at will), Charm Person (at will), Mirror Image (at will), Dispel Magic (at will), Remove Magic (at will), Confusion (at will), Power Word: Stun (at will)
+
+Nycaloth (12 HD):
+ ST20, DE18, CO18, IN18, WI18, CH16
+ HP 110, AC -6, THAC0 2, APR 1
+ 2D8 Slashing (Claws +3)
+ Saving Throws 8/10/9/9/11, AL NE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+
+Known Spells: Charm Person (at will), Command (3x per day), Invisibility (at will), Mirror Image (3x per day), Animate Dead (at will)~
+@305000 = ~Summon Fiend
+Level: 8
+School: Conjuration
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth one of the more powerful denizens of the Lower Planes. During the casting of the spell, the mage must choose the nature of the fiend to be summoned. If the caster is lawfully aligned, they may choose to summon a gelugon baatezu or a nycaloth yugoloth; a chaotically aligned caster may choose to summon a glabrezu tanar'ri or a nycaloth yugoloth; while a caster who is neither lawfully nor chaotically aligned may choose between any of the three kinds of fiends. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Gelugon (11 HD):
+ ST18, DE17, CO18, IN18, WI18, CH16
+ HP 88, AC -3, THAC0 9, APR 3
+ 1D6 Piercing (Spear +4)
+ 3D4 Crushing (Tail +4)
+ Saving Throws 7/9/8/8/10, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 50%, CR 100%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Detect Invisibility (permanent)
+ Aura of Fear: opponents flee in terror for 2 rounds (save vs. spell neg.)
+ Icy: target suffers 1D6 cold damage
+ Slowing: target is slowed for 5 rounds (save vs. death neg.)
+ Paralyzing: target is paralyzed for 2 rounds (save vs. death neg.)
+
+Known Spells: Charm Person (at will)
+
+Nycaloth (12 HD):
+ ST20, DE18, CO18, IN18, WI18, CH16
+ HP 110, AC -6, THAC0 2, APR 1
+ 2D8 Slashing (Claws +3)
+ Saving Throws 8/10/9/9/11, AL NE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+
+Known Spells: Charm Person (at will), Command (3x per day), Invisibility (at will), Mirror Image (3x per day), Animate Dead (at will)
+
+Glabrezu (10 HD):
+ ST20, DE18, CO20, IN16, WI13, CH22
+ HP 80, AC -7, THAC0 11, APR 5
+ 1D6 Crushing (Fist +4)
+ Saving Throws 8/10/9/9/11, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+ Grab: 25% target is entangled for 2 rounds (save vs. breath neg.)
+
+Known Spells: Burning Hands (at will), Charm Person (at will), Mirror Image (at will), Dispel Magic (at will), Remove Magic (at will), Confusion (at will), Power Word: Stun (at will)~
+@306 = ~Gate~
+@307 = ~Gate
+Level: 9
+School: Conjuration
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth one of the most powerful denizens of the Lower Planes. The nature of the fiend corresponds to the alignment of its summoner. A pit fiend appears if the caster is lawfully aligned, a balor appears if the caster is chaotically aligned, and an ultroloth appears if the caster is neither lawfully nor chaotically aligned. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Pit Fiend (13 HD):
+ ST18, DE16, CO16, IN18, WI16, CH25
+ HP 104, AC -5, THAC0 7, APR 5
+ 2D4 Slashing (Claws +5)
+ Saving Throws 5/7/6/5/8, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1/+2 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Detect Invisibility (permanent)
+ Aura of Fear: opponents flee in terror for 5 rounds (save vs. spell at -2 neg.)
+ Diseasing: 25% chance target suffers a -4 penalty to strength for 1 hour
+ Constrict: 25% chance target is entangled and suffers 2D4 crushing damage per round for 2 rounds (save vs. breath neg.)
+ Viperous: 15% chance target suffers 5 poison damage per second for 5 rounds (save vs. death neg.)
+
+Known Spells: Charm Person (at will), Fireball (at will), Hold Person (at will), Improved Invisibility (at will), Symbol of Pain (1x per day), Wish (1x per day)
+
+Balor (20 HD):
+ ST21, DE18, CO20, IN20, WI16, CH25
+ HP 104, AC -8, THAC0 4, APR 2
+ 1D8 Slashing (Long Sword +5)
+ 1D4 Piercing (Whip +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+ Body Flames: creatures who strike the balor in melee suffer 3D6 fire damage
+ Vorpal: 15% chance target dies
+ Flaming Whip: target is entangled and suffers 3D6 fire damage per round for 2 rounds (save vs. breath neg.)
+
+Known Spells: Dispel Magic (at will), Remove Magic (at will), Symbol of Death (at will), Symbol of Fear (at will), Symbol of Pain (at will), Symbol of Stun (at will)
+
+Ultroloth (15 HD):
+ ST21, DE18, CO18, IN20, WI20, CH25
+ HP 130, AC -8, THAC0 7, APR 2
+ 1D12 Magic (Energy Burst +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+
+Known Spells: Charm Person (at will), Color Spray (at will), Animate Dead (at will), Call Lightning (at will), Fire Storm (1x per day)~
+@307000 = ~Gate
+Level: 9
+School: Conjuration
+Range: Medium
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell will summon forth one of the most powerful denizens of the Lower Planes. During the casting of the spell, the mage must choose the nature of the fiend to be summoned. If the caster is lawfully aligned, they may choose to summon a pit fiend baatezu or an ultroloth yugoloth; a chaotically aligned caster may choose to summon a balor tanar'ri or an ultroloth yugoloth; while a caster who is neither lawfully nor chaotically aligned may choose between any of the three kinds of fiends. In any case, the spellcaster has no control over the actions of the summoned fiend. Anyone not protected from evil may be attacked by the creature, including innocent bystanders as well as the spellcaster and his party. Note that the spellcaster is responsible for the actions of the summoned fiend.
+
+Pit Fiend (13 HD):
+ ST18, DE16, CO16, IN18, WI16, CH25
+ HP 104, AC -5, THAC0 7, APR 5
+ 2D4 Slashing (Claws +5)
+ Saving Throws 5/7/6/5/8, AL LE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Protected Against: Normal/+1/+2 Weapons and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Regeneration: 2 hp/round
+ Detect Invisibility (permanent)
+ Aura of Fear: opponents flee in terror for 5 rounds (save vs. spell at -2 neg.)
+ Diseasing: 25% chance target suffers a -4 penalty to strength for 1 hour
+ Constrict: 25% chance target is entangled and suffers 2D4 crushing damage per round for 2 rounds (save vs. breath neg.)
+ Viperous: 15% chance target suffers 5 poison damage per second for 5 rounds (save vs. death neg.)
+
+Known Spells: Charm Person (at will), Fireball (at will), Hold Person (at will), Improved Invisibility (at will), Symbol of Pain (1x per day), Wish (1x per day)
+
+Ultroloth (15 HD):
+ ST21, DE18, CO18, IN20, WI20, CH25
+ HP 130, AC -8, THAC0 7, APR 2
+ 1D12 Magic (Energy Burst +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR -100%, ER 0%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 60%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+
+Known Spells: Charm Person (at will), Color Spray (at will), Animate Dead (at will), Call Lightning (at will), Fire Storm (1x per day)
+
+Balor (20 HD):
+ ST21, DE18, CO20, IN20, WI16, CH25
+ HP 104, AC -8, THAC0 4, APR 2
+ 1D8 Slashing (Long Sword +5)
+ 1D4 Piercing (Whip +5)
+ Saving Throws 5/7/6/5/8, AL CE
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 100%, CR 50%, ER 100%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 70%
+ Protected Against: Backstabs, Normal/+1/+2 Weapons, and Poison
+ Mind Shield: confers protection against many forms of mind-affecting magic, such as charm, confusion, domination, fear, feeblemind, hold, sleep, psionics, and other similar effects
+ Detect Invisibility (permanent)
+ Body Flames: creatures who strike the balor in melee suffer 3D6 fire damage
+ Vorpal: 15% chance target dies
+ Flaming Whip: target is entangled and suffers 3D6 fire damage per round for 2 rounds (save vs. breath neg.)
+
+Known Spells: Dispel Magic (at will), Remove Magic (at will), Symbol of Death (at will), Symbol of Fear (at will), Symbol of Pain (at will), Symbol of Stun (at will)~
+@400 = ~Call Woodland Beings~
+@401 = ~Call Woodland Beings
+Level: 4
+School: Conjuration
+Sphere: Animal
+Range: Long
+Duration: 5 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls a number of magical woodland beings. The type and number of creatures that appear depend upon the level of the druid casting the spell. The summoned beings will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+7th: 2 hamadryads
+9th: 3 hamadryads
+11th: 2 hamadryads, 1 nymph
+
+Hamadryad (4 HD):
+ ST10, DE18, CO12, IN14, WI14, CH18
+ HP 32, AC 7, THAC0 17, APR 1
+ 1D6 + 1 Missile (Short Bow & Arrow +1)
+ Saving Throws 13/15/14/16/16, AL TN
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 75%
+ Speaks with Plants (permanent): the hamadryad and her allies are immune to Entangle
+ Animal Friendship (at will): the hamadryad may charm a wild animal for 5 turns (save vs. spell neg.)
+ Dimension Door (at will)
+
+Known Spells: Charm Person (x3), Entangle (at will)
+
+Nymph (7 HD):
+ ST10, DE17, CO12, IN16, WI12, CH19
+ HP 24, AC 9, THAC0 17, APR 0
+ Saving Throws 13/15/14/16/16, AL NG
+ SR 0%, CR 0%, PR 0%, MR 0%
+ FR 0%, CR 0%, ER 0%, AR 0%
+
+Special Characteristics:
+ Magic Resistance: 50%
+ Blinding Beauty: each round enemies within 30' are blinded for 24 hours (save vs. spell neg.)
+ Dimension Door (1x per day)
+
+Known Spells:
+ 1° Bless (x2), Cure Light Wounds (x2)
+ 2° Barkskin, Charm Person or Mammal
+ 3° Call Lightning, Summon Insects
+ 4° Neutralize Poison~

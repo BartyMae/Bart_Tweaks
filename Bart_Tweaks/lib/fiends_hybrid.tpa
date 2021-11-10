@@ -1,0 +1,73 @@
+ACTION_IF (FILE_EXISTS_IN_GAME ~FL#CACOC.2da~) BEGIN // Further Revised Fiend Summoning
+
+COPY ~bart_tweaks/fiends/sppr703.frfs.spl~ ~override/sppr703.spl~ // Gate
+  SAY NAME1 @300    SAY UNIDENTIFIED_DESC @301000
+
+COPY ~bart_tweaks/fiends/spwi707.frfs.spl~ ~override/spwi707.spl~ // Cacofiend
+  SAY NAME1 @302    SAY UNIDENTIFIED_DESC @303000
+COPY ~bart_tweaks/fiends/scrl8i.itm~ ~override~
+  SAY NAME2 @302    SAY IDENTIFIED_DESC   @303000
+
+COPY ~bart_tweaks/fiends/spwi807.frfs.spl~ ~override/spwi807.spl~ // Summon Fiend
+  SAY NAME1 @304    SAY UNIDENTIFIED_DESC @305000
+COPY ~bart_tweaks/fiends/scrl9b.itm~ ~override~
+  SAY NAME2 @304    SAY IDENTIFIED_DESC   @305000
+
+COPY ~bart_tweaks/fiends/spwi905.frfs.spl~ ~override/spwi905.spl~ // Gate
+  SAY NAME1 @306    SAY UNIDENTIFIED_DESC @307000
+COPY ~bart_tweaks/fiends/scrl9n.itm~ ~override~
+  SAY NAME2 @306    SAY IDENTIFIED_DESC   @307000
+
+END ELSE BEGIN
+
+COPY ~bart_tweaks/fiends/sppr703.spl~ ~override~ // Gate
+  SAY NAME1 @300    SAY UNIDENTIFIED_DESC @301
+
+COPY ~bart_tweaks/fiends/spwi707.spl~ ~override~ // Cacofiend
+  SAY NAME1 @302    SAY UNIDENTIFIED_DESC @303
+COPY ~bart_tweaks/fiends/scrl8i.itm~ ~override~
+  SAY NAME2 @302    SAY IDENTIFIED_DESC   @303
+
+COPY ~bart_tweaks/fiends/spwi807.spl~ ~override~ // Summon Fiend
+  SAY NAME1 @304    SAY UNIDENTIFIED_DESC @305000
+COPY ~bart_tweaks/fiends/scrl9b.itm~ ~override~
+  SAY NAME2 @304    SAY IDENTIFIED_DESC   @305
+
+COPY ~bart_tweaks/fiends/spwi905.spl~ ~override~ // Gate
+  SAY NAME1 @306    SAY UNIDENTIFIED_DESC @307
+COPY ~bart_tweaks/fiends/scrl9n.itm~ ~override~
+  SAY NAME2 @306    SAY IDENTIFIED_DESC   @307
+
+END
+
+ACTION_IF (GAME_IS ~tutu tutu_totsc bg2 tob bgt bgee bg2ee eet~) BEGIN
+  ACTION_FOR_EACH resource IN
+    ~SPCL213~
+    ~SPCL233~
+    ~SPIN121~
+    ~SPPR107~
+    ~SPPR408~
+    ~SPWI113~
+  BEGIN
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.spl~) BEGIN
+      COPY_EXISTING ~%resource%.spl~ ~override\%resource%.spl~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        LPF CLONE_EFFECT INT_VAR match_opcode = 219 opcode = 100 parameter1 = 9 parameter2 = 7 silent = 1 END
+      END
+    END
+  END
+END
+
+ACTION_IF (GAME_IS ~tutu tutu_totsc bg2 tob bgt bgee bg2ee eet~) BEGIN
+  ACTION_FOR_EACH resource IN
+    ~AMUL27~
+    ~PLAT28~
+  BEGIN
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.itm~) BEGIN
+      COPY_EXISTING ~%resource%.itm~ ~override\%resource%.itm~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        LPF CLONE_EFFECT INT_VAR match_opcode = 219 opcode = 100 parameter1 = 9 parameter2 = 7 silent = 1 END
+      END
+    END
+  END
+END

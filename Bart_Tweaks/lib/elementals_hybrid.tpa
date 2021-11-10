@@ -1,0 +1,93 @@
+ACTION_FOR_EACH resource IN // Disable atweaks' druid spells
+  ~SPPR621~
+  ~SPPR622~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.spl~) BEGIN
+    COPY_EXISTING ~%resource%.spl~ ~override\%resource%.spl~
+      PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+        WRITE_SHORT 0x20 0xe07f
+      END
+    BUT_ONLY
+  END
+END
+
+COPY ~bart_tweaks/elementals/sppr601.spl~ ~override~ // Aerial Servant
+  SAY NAME1 @200    SAY UNIDENTIFIED_DESC @201
+
+COPY ~bart_tweaks/elementals/sppr605.spl~ ~override~ // Conjure Fire Elemental
+  SAY NAME1 @202    SAY UNIDENTIFIED_DESC @203
+
+ACTION_FOR_EACH add_spl IN // Conjure Air Elemental
+  ~CLERIC_CONJURE_AIR_ELEMENTAL~
+BEGIN
+  ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]%add_spl%[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%add_spl%~ RET spell_res END
+    OUTER_SPRINT $add_spl_spells(~%spell_res%~) ~%add_spl%~
+  END
+END
+ACTION_PHP_EACH add_spl_spells AS %spell_res% => %add_spl% BEGIN
+  COPY ~bart_tweaks/elementals/sppr621.spl~ ~override/%spell_res%.spl~
+    SAY NAME1 @204    SAY UNIDENTIFIED_DESC @205
+  BUT_ONLY
+END
+
+ACTION_FOR_EACH add_spl IN // Conjure Earth Elemental
+  ~CLERIC_CONJURE_EARTH_ELEMENTAL~
+BEGIN
+  ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]%add_spl%[ %TAB%%LNL%%MNL%%WNL%]~)) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME STR_VAR spell_name = EVAL ~%add_spl%~ RET spell_res END
+    OUTER_SPRINT $add_spl_spells(~%spell_res%~) ~%add_spl%~
+  END
+END
+ACTION_PHP_EACH add_spl_spells AS %spell_res% => %add_spl% BEGIN
+  COPY ~bart_tweaks/elementals/sppr622.spl~ ~override/%spell_res%.spl~
+    SAY NAME1 @206    SAY UNIDENTIFIED_DESC @207
+  BUT_ONLY
+END
+
+COPY ~bart_tweaks/elementals/sppr723.spl~ ~override~ // Elemental Summoning
+  SAY NAME1 @208    SAY UNIDENTIFIED_DESC @209
+
+COPY ~bart_tweaks/elementals/sppr724.spl~ ~override~ // Greater Elemental Summoning
+  SAY NAME1 @210    SAY UNIDENTIFIED_DESC @211
+
+COPY ~bart_tweaks/elementals/sppr731.spl~ ~override~ // Fire Elemental Transformation
+  SAY NAME1 @212    SAY UNIDENTIFIED_DESC @213
+
+COPY ~bart_tweaks/elementals/sppr732.spl~ ~override~ // Earth Elemental Transformation
+  SAY NAME1 @214    SAY UNIDENTIFIED_DESC @215
+
+COPY ~bart_tweaks/elementals/spwi516.spl~ ~override~ // Conjure Lesser Fire Elemental
+  SAY NAME1 @216    SAY UNIDENTIFIED_DESC @217
+COPY ~bart_tweaks/elementals/scrl6x.itm~ ~override~
+  SAY NAME2 @216    SAY IDENTIFIED_DESC   @217
+
+COPY ~bart_tweaks/elementals/spwi520.spl~ ~override~ // Conjure Lesser Air Elemental
+  SAY NAME1 @218    SAY UNIDENTIFIED_DESC @219
+COPY ~bart_tweaks/elementals/scrl7b.itm~ ~override~
+  SAY NAME2 @218    SAY IDENTIFIED_DESC   @219
+
+COPY ~bart_tweaks/elementals/spwi521.spl~ ~override~ // Conjure Lesser Earth Elemental
+  SAY NAME1 @220    SAY UNIDENTIFIED_DESC @221
+COPY ~bart_tweaks/elementals/scrl7c.itm~ ~override~
+  SAY NAME2 @220    SAY IDENTIFIED_DESC   @221
+
+COPY ~bart_tweaks/elementals/spwi601.spl~ ~override~ // Invisible Stalker
+  SAY NAME1 @222    SAY UNIDENTIFIED_DESC @223
+COPY ~bart_tweaks/elementals/scrl7e.itm~ ~override~
+  SAY NAME2 @222    SAY IDENTIFIED_DESC   @223
+
+COPY ~bart_tweaks/elementals/spwi620.spl~ ~override~ // Conjure Fire Elemental
+  SAY NAME1 @224    SAY UNIDENTIFIED_DESC @225
+COPY ~bart_tweaks/elementals/scrl7x.itm~ ~override~
+  SAY NAME2 @224    SAY IDENTIFIED_DESC   @225
+
+COPY ~bart_tweaks/elementals/spwi621.spl~ ~override~ // Conjure Air Elemental
+  SAY NAME1 @226    SAY UNIDENTIFIED_DESC @227
+COPY ~bart_tweaks/elementals/scrl7y.itm~ ~override~
+  SAY NAME2 @226    SAY IDENTIFIED_DESC   @227
+
+COPY ~bart_tweaks/elementals/spwi622.spl~ ~override~ // Conjure Earth Elemental
+  SAY NAME1 @228    SAY UNIDENTIFIED_DESC @229
+COPY ~bart_tweaks/elementals/scrl7z.itm~ ~override~
+  SAY NAME2 @228    SAY IDENTIFIED_DESC   @229
