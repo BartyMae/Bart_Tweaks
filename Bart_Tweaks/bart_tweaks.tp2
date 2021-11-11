@@ -41,32 +41,32 @@ GROUP ~Random Stuff~
 INCLUDE ~bart_tweaks/lib/droppable_npc_items.tpa~
 
 // -----------------------------
-// Display Actual Range in Descriptions for Spells
+// Display Actual Range of Spells in Descriptions
 // -----------------------------
 BEGIN ~Personal for 0 and Touch for 1~
 DESIGNATED 1041
-SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
+SUBCOMPONENT ~Display Actual Range of Spells in Descriptions~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 0
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
 
 BEGIN ~Touch for 1~
 DESIGNATED 1042
-SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
+SUBCOMPONENT ~Display Actual Range of Spells in Descriptions~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 1
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
 
 BEGIN ~Personal for 0~
 DESIGNATED 1043
-SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
+SUBCOMPONENT ~Display Actual Range of Spells in Descriptions~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 2
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
 
 BEGIN ~Numbers Only~
 DESIGNATED 1044
-SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
+SUBCOMPONENT ~Display Actual Range of Spells in Descriptions~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 3
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
