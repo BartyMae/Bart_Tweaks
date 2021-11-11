@@ -1,6 +1,6 @@
 BACKUP ~bart_tweaks/backup~
 AUTHOR ~Bartimaeus~
-VERSION ~Version 1.2.0~
+VERSION ~Version 1.2.1~
 
 NO_IF_EVAL_BUG
 
@@ -41,32 +41,32 @@ GROUP ~Random Stuff~
 INCLUDE ~bart_tweaks/lib/droppable_npc_items.tpa~
 
 // -----------------------------
-// Set Range for Spells
+// Display Actual Range in Descriptions for Spells
 // -----------------------------
 BEGIN ~Personal for 0 and Touch for 1~
 DESIGNATED 1041
-SUBCOMPONENT ~Display True Range in Description for All Spells~
+SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 0
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
 
 BEGIN ~Touch for 1~
 DESIGNATED 1042
-SUBCOMPONENT ~Display True Range in Description for All Spells~
+SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 1
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
 
 BEGIN ~Personal for 0~
 DESIGNATED 1043
-SUBCOMPONENT ~Display True Range in Description for All Spells~
+SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 2
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
 
 BEGIN ~Numbers Only~
 DESIGNATED 1044
-SUBCOMPONENT ~Display True Range in Description for All Spells~
+SUBCOMPONENT ~Display Actual Range in Descriptions for Spells~
 GROUP ~Random Stuff~
 OUTER_SET display_range = 3
 INCLUDE ~bart_tweaks/lib/display_range.tpa~
@@ -98,7 +98,8 @@ SUBCOMPONENT ~Elementals for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 190) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
-INCLUDE ~bart_tweaks/lib/elementals_sr.tpa~*/
+OUTER_SET elementals = 0
+INCLUDE ~bart_tweaks/lib/elementals.tpa~*/
 
 BEGIN ~SR/atweaks Elementals~
 DESIGNATED 2022
@@ -106,7 +107,8 @@ SUBCOMPONENT ~Elementals for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 190) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
-INCLUDE ~bart_tweaks/lib/elementals_hybrid.tpa~
+OUTER_SET elementals = 1
+INCLUDE ~bart_tweaks/lib/elementals.tpa~
 
 // -----------------------------
 // Fiends for SR/atweaks
@@ -117,7 +119,8 @@ SUBCOMPONENT ~Fiends for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 152) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
-INCLUDE ~bart_tweaks/lib/fiends_sr.tpa~*/
+OUTER_SET fiends = 0
+INCLUDE ~bart_tweaks/lib/fiends.tpa~*/
 
 BEGIN ~SR/atweaks Hybrid Fiends~
 DESIGNATED 2032
@@ -125,7 +128,8 @@ SUBCOMPONENT ~Fiends for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 152) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
-INCLUDE ~bart_tweaks/lib/fiends_hybrid.tpa~
+OUTER_SET fiends = 1
+INCLUDE ~bart_tweaks/lib/fiends.tpa~
 
 // -----------------------------
 // Call Woodland Beings for SR/atweaks
