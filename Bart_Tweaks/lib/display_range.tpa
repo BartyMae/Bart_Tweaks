@@ -14,6 +14,12 @@ DEFINE_PATCH_MACRO ~update_spell_descriptions~ BEGIN
   END
 END
 
+ACTION_IF (GAME_IS ~tutu tutu_totsc bg2 tob bgt~ AND NOT GAME_IS ~bgee bg2ee eet~) BEGIN
+  OUTER_SPRINT feet ~feet~
+END ELSE BEGIN
+  OUTER_SPRINT feet ~ft.~
+END
+
 ACTION_IF display_range = 0 BEGIN
   DEFINE_PATCH_MACRO update_range_touch BEGIN
     SPRINT t1 ~Range:.*~
@@ -27,7 +33,7 @@ ACTION_IF display_range = 0 BEGIN
   END
   DEFINE_PATCH_MACRO update_range BEGIN
     SPRINT t1 ~Range:.*~
-    SPRINT t2 ~Range: %true_range%~
+    SPRINT t2 ~Range: %true_range% %feet%~
     REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
   END
 END ELSE ACTION_IF display_range = 1 BEGIN
@@ -43,7 +49,7 @@ END ELSE ACTION_IF display_range = 1 BEGIN
   END
   DEFINE_PATCH_MACRO update_range BEGIN
     SPRINT t1 ~Range:.*~
-    SPRINT t2 ~Range: %true_range%~
+    SPRINT t2 ~Range: %true_range% %feet%~
     REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
   END
 END ELSE ACTION_IF display_range = 2 BEGIN
@@ -59,7 +65,7 @@ END ELSE ACTION_IF display_range = 2 BEGIN
   END
   DEFINE_PATCH_MACRO update_range BEGIN
     SPRINT t1 ~Range:.*~
-    SPRINT t2 ~Range: %true_range%~
+    SPRINT t2 ~Range: %true_range% %feet%~
     REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
   END
 END ELSE ACTION_IF display_range = 3 BEGIN
@@ -75,7 +81,7 @@ END ELSE ACTION_IF display_range = 3 BEGIN
   END
   DEFINE_PATCH_MACRO update_range BEGIN
     SPRINT t1 ~Range:.*~
-    SPRINT t2 ~Range: %true_range%~
+    SPRINT t2 ~Range: %true_range% %feet%~
     REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
   END
 END

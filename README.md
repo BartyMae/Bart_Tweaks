@@ -3,17 +3,18 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
-5. Non-Upgradeable Carsomyr<br/>
-6. Revised Shapeshifting for SCS<br/>
-7. SR/atweaks Elementals<br/>
-8. SR/atweaks Fiends<br/>
-9. SR/atweaks Call Woodland Beings<br/>
-10. Set Summonable Flag<br/>
-11. Alternative Lore Table<br/>
-12. Alternative Sorcerer Spell Progression<br/>
-13. Alternative Weapon Mastery<br/>
-14. Alternative Wisdom Bonus Spells<br/>
-15. Alternative Constitution Bonuses<br/>
+6. Non-Upgradeable Carsomyr<br/>
+5. Display Actual Range of Spells in Descriptions<br/>
+7. Revised Shapeshifting for SCS<br/>
+8. SR/atweaks Elementals<br/>
+9. SR/atweaks Fiends<br/>
+10. SR/atweaks Call Woodland Beings<br/>
+11. Set Summonable Flag<br/>
+12. Alternative Lore Table<br/>
+13. Alternative Sorcerer Spell Progression<br/>
+14. Alternative Weapon Mastery<br/>
+15. Alternative Wisdom Bonus Spells<br/>
+16. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -26,6 +27,9 @@ Removes all random treasures from every creature in the game's inventories (incl
 
 ## Droppable/Movable NPC Items<br/>
 Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Moonblade, Eldoth's Poisoned Arrows, and possibly others - this wasn't coded robustly.<br/>
+
+## Display Actual Range of Spells in Descriptions<br/>
+Scans for all spells that have descriptions and updates their listed ranges to the actual value used by the spell. Spells that do not target the caster, a living creature, or an area will not be affected (i.e. Raise Dead-type spells won't be affected).<br/>
 
 ## Non-Upgradeable Carsomyr<br/>
 Replaces the non-upgraded version of Carsomyr with the upgraded version, but sets its magic resistance bonus to +10%, its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
