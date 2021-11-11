@@ -31,7 +31,7 @@ Affects Nalia's Ring, Edwin's Amulet, Minsc's Boo, Alora's Rabbit Foot, Xan's Mo
 ## Display Actual Range of Spells in Descriptions<br/>
 Scans for all spells that have descriptions and updates their listed ranges to the actual value used by the spell. Spells that do not target the caster, a living creature, or an area will not be affected (i.e. Raise Dead-type spells won't be affected). Comes in four varieties:<br/>
 1. "Personal" for Ranges of 0 and "Touch" for Ranges of 1<br/>
-2. "Touch" for Ranges of 1~<br/>
+2. "Touch" for Ranges of 1<br/>
 3. "Personal" for Ranges of 0<br/>
 4. Use Numbers Only<br/>
 
