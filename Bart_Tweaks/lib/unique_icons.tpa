@@ -1,0 +1,301 @@
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2dak.itm~) BEGIN // Dak'kon's Zerth Blade +2
+  COPY_EXISTING ~wa2dak.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb1~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb1~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 65		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 72		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 64		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~waflail.itm~) BEGIN // Defender of Easthaven +2
+  COPY_EXISTING ~waflail.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb3~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb3~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 57		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 57		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 79		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~waflail.itm~) BEGIN // Everard's Morning Star +3
+  COPY_EXISTING ~waflail.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb4~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb4~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 63		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 63		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 19		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2halb.itm~) BEGIN // Harmonium Halberd +3
+  COPY_EXISTING ~wa2halb.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb5~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb5~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 70		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 19		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 19		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2harp.itm~) BEGIN // Harp of Pandemonium
+  COPY_EXISTING ~wa2harp.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb6~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb6~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~was2h.itm~) BEGIN // Joril's Dagger +3
+  COPY_EXISTING ~was2h.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb8~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb8~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 52		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 52		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 27		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wawak.itm~) BEGIN // Malakar's Companion +2
+  COPY_EXISTING ~wawak.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb9~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb9~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 63		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 63		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 19		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2ring.itm~) BEGIN // Mercykiller Ring
+  COPY_EXISTING ~wa2ring.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb10~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~waninja.itm~) BEGIN // Scarlet Ninja-To +3
+  COPY_EXISTING ~waninja.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb11~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb11~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 47		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 47		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 64		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2plat.itm~) BEGIN // Plate of Balduran +2
+  COPY_EXISTING ~wa2plat.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb12~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 80		// colour index
+    SET location = agrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 81		// colour index
+    SET location = ared		// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 182		// colour index
+    SET location = ablue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2robe.itm~) BEGIN // Robe of Larloch
+  COPY_EXISTING ~wa2plat.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb13~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 58		// colour index
+    SET location = agrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 66		// colour index
+    SET location = ared		// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 58		// colour index
+    SET location = ablue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2amu.itm~) BEGIN // Sensate Amulet
+  COPY_EXISTING ~wa2amu.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cbun14~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wa2shiel.itm~) BEGIN // Shield of Balduran +2
+  COPY_EXISTING ~wa2shiel.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdun15~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 0		// colour index
+    SET location = sgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 65		// colour index
+    SET location = steal	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 63		// colour index
+    SET location = sblue	// location
+    // LAUNCH_PATCH_MACRO ~colour~
+    // PATCH_IF (%pcolour% = 1 || %pcolour% = 2 || %pcolour% = 3) BEGIN
+    SET gradient = 23		// colour index
+    SET location = spink	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    // END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wasling.itm~) BEGIN // Sling of Everard +3
+  COPY_EXISTING ~wasling.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb16~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb16~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 45		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 45		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 45		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~waspear.itm~) BEGIN // Spear of Kuldahar +3
+  COPY_EXISTING ~waspear.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb17~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb17~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 64		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 64		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 101		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~wastaff.itm~) BEGIN // Staff of Arundel +3
+  COPY_EXISTING ~wastaff.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) BEGIN // protects against invalid files
+    WRITE_LONG  0x3E 0
+    WRITE_ASCII 0x3A ~cdunb18~
+    WRITE_LONG  0x7A 0
+    WRITE_ASCII 0x76 ~cdunb18~
+    LAUNCH_PATCH_MACRO ~clear~
+    SET gradient = 38		// colour index
+    SET location = wgrey	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 38		// colour index
+    SET location = wblue	// location
+    LAUNCH_PATCH_MACRO ~colour~
+    SET gradient = 54		// colour index
+    SET location = wred		// location
+    LAUNCH_PATCH_MACRO ~colour~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
