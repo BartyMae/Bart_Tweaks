@@ -43,12 +43,12 @@ Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the S
 
 ## SR/atweaks Elementals<br/>
 Meant to be used with when both Spell Revisions and atweaks' PnP Fiends are installed, this component solves some incompatibilities with their elemental-summoning spells in two possible ways:<br/>
-1. Restore SR's summonable elementals.<br/>
+~~1. Restore SR's summonable elementals.~~ (not yet implemented)<br/>
 2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and spell properties.<br/>
 
 ## SR/atweaks Fiends<br/>
 Meant to be used with when both Spell Revisions and atweaks' PnP Fiends are installed, this component solves some incompatibilities with their fiend-summoning spells fiends in two possible ways:<br/>
-1. Restore SR's summonable fiends.<br/>
+~~1. Restore SR's summonable fiends.~~ (not yet implemented)<br/>
 2. Create a fusion between them using atweaks' creatures but SR-styled descriptions and spell properties.<br/>
 
 ## SR/atweaks Call Woodland Beings<br/>
