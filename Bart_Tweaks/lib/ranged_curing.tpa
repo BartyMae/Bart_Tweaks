@@ -1,3 +1,5 @@
+INCLUDE ~bart_tweaks/lib/macros.tpa~
+
 ACTION_IF (GAME_IS ~tutu tutu_totsc bg2 tob bgt~ AND NOT GAME_IS ~bgee bg2ee eet~) BEGIN
   OUTER_SPRINT feet ~feet~
 END ELSE BEGIN
