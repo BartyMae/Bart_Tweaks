@@ -1,0 +1,30 @@
+INCLUDE ~bart_tweaks/lib/macros.tpa~
+
+COPY ~bart_tweaks/dancing_blade/sw1h33.itm~ ~override~
+  SAY NAME1 ~Long Sword~
+  SAY NAME2 ~Ras~
+  SAY UNIDENTIFIED_DESC ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.~
+  SAY IDENTIFIED_DESC ~The Dancing Blade
+Beroalf was a barbarian who traveled from the cold north in search of adventure. He sought treasures and glory, but soon all he wanted were companions to share in the excitement of battle, much like those he had left behind in his faraway village. Unfortunately, his coarse remarks and rudimentary hygiene repelled most travelers he met, until he expressed his thoughts to a sympathetic mage. The mage, for a price, constructed Ras, the dancing blade. Though not quite what Beroalf had in mind, he was thrilled nonetheless, and wielded the sword for many years. How they were ultimately separated is not known.
+
+STATISTICS:
+
+Special Abilities:
+ Dancing Blade (1x per day): the sword can attack on its own for 1 turn
+
+Ras (7 HD):
+ HP 35, AC 0, THAC0 9, APR 2
+ 1D8 + 5 Slashing (Ras +2)
+ Saving Throws 10/14/10/12/14, AL TN
+ SR 100%, CR 100%, PR 100%, MR 100%
+ FR 100%, CR 100%, ER 100%, AR 100%
+
+Special Characteristics:
+ Magic Resistance: 100%
+ Protected Against: Backstabs and Poison
+ Mind Shield: conferred protection against many forms of mind-affecting magic, such as charm, command, confusion, emotion, domination, fear, feeblemind, hold, sleep, stun, psionics, and other similar effects
+
+Weight: 1
+Not Usable By:
+ Wizard Slayer~
+ LPF update_item_descriptions_to_bgee END

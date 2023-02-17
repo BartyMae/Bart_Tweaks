@@ -175,6 +175,14 @@ GROUP ~Fixes/Tweaks for Other Mods~
 INCLUDE ~bart_tweaks/lib/summonables.tpa~
 
 // -----------------------------
+// Quick Slot Ras
+// -----------------------------
+BEGIN ~Quick Slot Ras~
+DESIGNATED 2060
+GROUP ~Fixes/Tweaks for Other Mods~
+INCLUDE ~bart_tweaks/lib/dancing_blade.tpa~
+
+// -----------------------------
 // Alternative Lore Progression
 // -----------------------------
 BEGIN ~Alternative Lore Progression~
