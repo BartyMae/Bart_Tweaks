@@ -111,6 +111,11 @@ ACTION_FOR_EACH resource IN // Demon summonables
   ~FL#NYCSU~
   ~FL#SKESU~
   ~FL#ULTSU~
+
+  ~dvefreet~
+  ~efreetsu~
+  ~dvdjinni~
+  ~djinnisu~
 BEGIN
   ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
     COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
@@ -157,25 +162,7 @@ BEGIN
   ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
     COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
     PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-      WRITE_BYTE 0x275 0x20
-    END
-  END
-END
-
-ACTION_FOR_EACH resource IN // Other summonables
-  ~devagood~
-  ~devaevil~
-  ~dvefreet~
-  ~efreetsu~
-  ~dvdjinni~
-  ~djinnisu~
-  ~plangood~
-  ~planevil~
-BEGIN
-  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
-    COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
-    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-      WRITE_BYTE 0x275 0x20
+      WRITE_BYTE 0x275 %gender%
     END
   END
 END
