@@ -1,3 +1,20 @@
+// Mark spells for restoration
+ACTION_FOR_EACH resource IN
+  ~SPWI708~
+  ~SPWI808~
+  ~SPIN754~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.spl~) BEGIN
+    COPY_EXISTING ~%resource%.spl~ ~override\%resource%.spl~
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 0 match_parameter1 = 1 parameter1 = 0 parameter2 = 1 silent = 1 END
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 0 match_parameter1 = 2 parameter1 = 0 parameter2 = 2 silent = 1 END
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 0 match_parameter1 = 3 parameter1 = 0 parameter2 = 4 silent = 1 END
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 0 match_parameter1 = 4 parameter1 = 0 parameter2 = 8 silent = 1 END
+    BUT_ONLY
+  END
+END
+
+// Remove protections for items
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN
     LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 1 silent = 1 END
@@ -11,6 +28,8 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   END
   BUT_ONLY
 
+
+// Remove protections for spells
 COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
   PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN
     LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 1 silent = 1 END
@@ -23,3 +42,19 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
     LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 4 silent = 1 END
   END
   BUT_ONLY
+
+// Restore
+ACTION_FOR_EACH resource IN // Give generic icon to familiar weapons
+  ~SPWI708~
+  ~SPWI808~
+  ~SPIN754~
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.spl~) BEGIN
+    COPY_EXISTING ~%resource%.spl~ ~override\%resource%.spl~
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 0 opcode = 120 match_parameter1 = 0 match_parameter2 = 1 parameter2 = 0 parameter1 = 1 silent = 1 END
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 0 opcode = 120 match_parameter1 = 0 match_parameter2 = 2 parameter2 = 0 parameter1 = 2 silent = 1 END
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 0 opcode = 120 match_parameter1 = 0 match_parameter2 = 4 parameter2 = 0 parameter1 = 3 silent = 1 END
+      LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 0 opcode = 120 match_parameter1 = 0 match_parameter2 = 8 parameter2 = 0 parameter1 = 4 silent = 1 END
+    BUT_ONLY
+  END
+END

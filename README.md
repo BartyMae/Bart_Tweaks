@@ -4,7 +4,7 @@
 03. No Random Treasures<br/>
 04. Droppable/Movable NPC Items<br/>
 05. Display Actual Range of Spells in Descriptions<br/>
-06. Disable Protection Against +x Magical Weapons<br/>
+06. Disable Protection Against +x Weapon Enchantment Levels<br/>
 07. Non-Upgradeable Carsomyr<br/>
 08. Quick Slot Ras<br/>
 09. Quick Slot Ring of Djinni Summoning<br/>
@@ -40,7 +40,7 @@ Scans for all spells that have descriptions and updates their listed ranges to t
 4. Use Numbers Only<br/>
 
 ## Disable Protection Against +x Weapon Enchantment Levels<br/>
-Prevents creatures from being protected against magical weapons of a certain enchantment level. Creatures which were previously immune to e.g. magical weapons of +2 or less can now be damaged by magical weapons of all enchantment levels, including +1 and +2 weapons (but typically not non-magical weapons). If a creature was protected by weapons of +5 or greater, then they will still be immune to all magical weapons. This effect will also apply to all spells and abilities cast by both the player and enemies, so Absolute Immunity and Protection from Magical Weapons will still give immunity to all magical weapons, but the Tear of Fear which normally grants immunity to both non-magical weapons and +1 weapons will now only grant protection against non-magical weapons.
+Prevents creatures from being protected against magical weapons of a certain enchantment level. Creatures which were previously immune to e.g. magical weapons of +2 or less can now be damaged by magical weapons of all enchantment levels, including +1 and +2 weapons (but typically not non-magical weapons). If a creature was protected by weapons of +5 or greater, then they will still be immune to all magical weapons. This effect will also apply to all spells and abilities cast by both the player and enemies, with the following exceptions: spells that give complete immunity to all magical weapons (e.g. Protection from Magical Weapons and Absolute Immunity) will continue to do so; Mantle, Improved Mantle, and the Tear of Fear will remain untouched by this component.
 
 ## Non-Upgradeable Carsomyr<br/>
 Replaces the non-upgraded version of Carsomyr with the upgraded version while setting its magic resistance to either 10% or 20% (depending on which option you choose), its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
