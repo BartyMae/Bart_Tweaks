@@ -90,6 +90,31 @@ ACTION_FOR_EACH resource IN // Standard summonables
   ~worgsu~
   ~wyvbabsu~
   ~xvartsu~
+
+  ~elfirpr~
+  ~elfirpr2~
+  ~elfirpr3~
+  ~elfirsu~
+  ~elfirsu1~
+  ~elfirsu2~
+  ~elfirsu3~
+  ~elfirsu4~
+  ~elfirsuw~
+  ~elairsu1~
+  ~elairsu2~
+  ~elairsu3~
+  ~elairsuw~
+  ~elearpr~
+  ~elearpr2~
+  ~elearpr3~
+  ~elearsu~
+  ~elearsu1~
+  ~elearsu2~
+  ~elearsu3~
+  ~elearsu4~
+  ~elearsuw~
+  ~dvstalk~
+  ~stalke~
 BEGIN
   ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
     COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
@@ -116,40 +141,7 @@ ACTION_FOR_EACH resource IN // Demon summonables
   ~efreetsu~
   ~dvdjinni~
   ~djinnisu~
-BEGIN
-  ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
-    COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
-    PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-      WRITE_BYTE 0x275 0x9
-    END
-  END
-END
 
-ACTION_FOR_EACH resource IN // Elemental summonables
-  ~elfirpr~
-  ~elfirpr2~
-  ~elfirpr3~
-  ~elfirsu~
-  ~elfirsu1~
-  ~elfirsu2~
-  ~elfirsu3~
-  ~elfirsu4~
-  ~elfirsuw~
-  ~elairsu1~
-  ~elairsu2~
-  ~elairsu3~
-  ~elairsuw~
-  ~elearpr~
-  ~elearpr2~
-  ~elearpr3~
-  ~elearsu~
-  ~elearsu1~
-  ~elearsu2~
-  ~elearsu3~
-  ~elearsu4~
-  ~elearsuw~
-  ~dvstalk~
-  ~stalke~
   ~elemcryo~
   ~elemchan~
   ~elemhydr~
@@ -162,7 +154,7 @@ BEGIN
   ACTION_IF (FILE_EXISTS_IN_GAME ~%resource%.cre~) BEGIN
     COPY_EXISTING ~%resource%.cre~ ~override\%resource%.cre~
     PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
-      WRITE_BYTE 0x275 %gender%
+      WRITE_BYTE 0x275 0x9
     END
   END
 END

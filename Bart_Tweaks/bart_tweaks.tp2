@@ -99,10 +99,20 @@ INCLUDE ~bart_tweaks/lib/ranged_curing.tpa~
 // -----------------------------
 // Non-Upgradeable Carsomyr for IR
 // -----------------------------
-BEGIN ~Non-Upgradeable Carsomyr for IR~
-DESIGNATED 2000
+BEGIN ~10% Magic Resistance~
+DESIGNATED 2001
+SUBCOMPONENT ~Non-Upgradeable Carsomyr for IR~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~item-rev/setup-item_rev.tp2~ 0) ~Item Revisions must be installed prior to this component.~
+OUTER_SET carsomyr = 1
+INCLUDE ~bart_tweaks/lib/carsomyr.tpa~
+
+BEGIN ~20% Magic Resistance~
+DESIGNATED 2002
+SUBCOMPONENT ~Non-Upgradeable Carsomyr for IR~
+GROUP ~Fixes/Tweaks for Other Mods~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~item-rev/setup-item_rev.tp2~ 0) ~Item Revisions must be installed prior to this component.~
+OUTER_SET carsomyr = 2
 INCLUDE ~bart_tweaks/lib/carsomyr.tpa~
 
 // -----------------------------

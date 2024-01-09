@@ -1,8 +1,14 @@
 INCLUDE ~bart_tweaks/lib/macros.tpa~
 
-DEFINE_PATCH_MACRO carsomyr BEGIN
+DEFINE_PATCH_MACRO carsomyr_10 BEGIN
   SPRINT t1 ~.0~
   SPRINT t2 ~10~
+  REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
+END
+
+DEFINE_PATCH_MACRO carsomyr_20 BEGIN
+  SPRINT t1 ~.0~
+  SPRINT t2 ~20~
   REPLACE_TEXTUALLY ~%t1%~ ~%t2%~
 END
 
@@ -11,8 +17,14 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~sw2h19.itm~) BEGIN
     WRITE_SHORT 0x34 20000
     WRITE_SHORT 0x42 100
     LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 166 END
-	LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 166 target = 1 parameter1 = 10 timing = 2 probability1 = 100 END
-    SPRINT text_update ~carsomyr~
+	PATCH_IF carsomyr=1 BEGIN
+	  LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 166 target = 1 parameter1 = 10 timing = 2 probability1 = 100 END
+      SPRINT text_update ~carsomyr_10~
+    END
+	PATCH_IF carsomyr=2 BEGIN
+	  LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 166 target = 1 parameter1 = 20 timing = 2 probability1 = 100 END
+      SPRINT text_update ~carsomyr_20~
+    END
     LPM update_item_descriptions
   BUT_ONLY
 END
