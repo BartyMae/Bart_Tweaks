@@ -116,10 +116,26 @@ OUTER_SET carsomyr = 2
 INCLUDE ~bart_tweaks/lib/carsomyr.tpa~
 
 // -----------------------------
+// Quick Slot Ras
+// -----------------------------
+BEGIN ~Quick Slot Ras~
+DESIGNATED 2010
+GROUP ~Fixes/Tweaks for Other Mods~
+INCLUDE ~bart_tweaks/lib/dancing_blade.tpa~
+
+// -----------------------------
+// Original Lightning Bolt for SR
+// -----------------------------
+BEGIN ~Original Lightning Bolt~
+DESIGNATED 2020
+GROUP ~Fixes/Tweaks for Other Mods~
+INCLUDE ~bart_tweaks/lib/original_lightning_bolt.tpa~
+
+// -----------------------------
 // Revised Shapeshifting Tokens for SCS
 // -----------------------------
 BEGIN ~Revised Shapeshifting Tokens for SCS~
-DESIGNATED 2010
+DESIGNATED 2030
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ 4030) ~SCS's "Improved Shapeshifting" must be installed prior to this component.~
 INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
@@ -128,7 +144,7 @@ INCLUDE ~bart_tweaks/lib/shapeshifting.tpa~
 // Elementals for SR/atweaks
 // -----------------------------
 /* BEGIN ~SR Elementals~
-DESIGNATED 2021
+DESIGNATED 2041
 SUBCOMPONENT ~Elementals for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
@@ -137,7 +153,7 @@ OUTER_SET elementals = 0
 INCLUDE ~bart_tweaks/lib/elementals.tpa~*/
 
 BEGIN ~SR/atweaks Elementals~
-DESIGNATED 2022
+DESIGNATED 2042
 SUBCOMPONENT ~Elementals for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Elementals" must be installed prior to this component.~
@@ -149,7 +165,7 @@ INCLUDE ~bart_tweaks/lib/elementals.tpa~
 // Fiends for SR/atweaks
 // -----------------------------
 /* BEGIN ~SR Fiends~
-DESIGNATED 2031
+DESIGNATED 2051
 SUBCOMPONENT ~Fiends for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
@@ -158,7 +174,7 @@ OUTER_SET fiends = 0
 INCLUDE ~bart_tweaks/lib/fiends.tpa~*/
 
 BEGIN ~SR/atweaks Hybrid Fiends~
-DESIGNATED 2032
+DESIGNATED 2052
 SUBCOMPONENT ~Fiends for SR/atweaks~
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "PnP Fiends" must be installed prior to this component.~
@@ -170,7 +186,7 @@ INCLUDE ~bart_tweaks/lib/fiends.tpa~
 // Call Woodland Beings for SR/atweaks
 // -----------------------------
 BEGIN ~SR/atweaks Call Woodland Beings~
-DESIGNATED 2040
+DESIGNATED 2060
 GROUP ~Fixes/Tweaks for Other Mods~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~spell_rev/setup-spell_rev.tp2~ 0) ~Spell Revisions and atweaks' "Revised Call Woodland Beings spell" must be installed prior to this component.~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~atweaks/setup-atweaks.tp2~ 186) ~Spell Revisions and atweaks' "Revised Call Woodland Beings spell" must be installed prior to this component.~
@@ -180,17 +196,9 @@ INCLUDE ~bart_tweaks/lib/call_woodland_beings.tpa~
 // Set Summonable Flag
 // -----------------------------
 BEGIN ~Set Summonable Flag~
-DESIGNATED 2050
+DESIGNATED 2070
 GROUP ~Fixes/Tweaks for Other Mods~
 INCLUDE ~bart_tweaks/lib/summonables.tpa~
-
-// -----------------------------
-// Quick Slot Ras
-// -----------------------------
-BEGIN ~Quick Slot Ras~
-DESIGNATED 2060
-GROUP ~Fixes/Tweaks for Other Mods~
-INCLUDE ~bart_tweaks/lib/dancing_blade.tpa~
 
 // -----------------------------
 // Alternative Lore Progression

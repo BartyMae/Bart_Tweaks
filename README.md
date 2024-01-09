@@ -3,18 +3,20 @@
 2. Debug Ring (Cheat)<br/>
 3. No Random Treasures<br/>
 4. Droppable/Movable NPC Items<br/>
-6. Non-Upgradeable Carsomyr<br/>
 5. Display Actual Range of Spells in Descriptions<br/>
-7. Revised Shapeshifting for SCS<br/>
-8. SR/atweaks Elementals<br/>
-9. SR/atweaks Fiends<br/>
-10. SR/atweaks Call Woodland Beings<br/>
-11. Set Summonable Flag<br/>
-12. Alternative Lore Table<br/>
-13. Alternative Sorcerer Spell Progression<br/>
-14. Alternative Weapon Mastery<br/>
-15. Alternative Wisdom Bonus Spells<br/>
-16. Alternative Constitution Bonuses<br/>
+6. Non-Upgradeable Carsomyr<br/>
+7. Quick Slot Ras<br/>
+8. Original Lightning Bolt<br/>
+9. Revised Shapeshifting for SCS<br/>
+10. SR/atweaks Elementals<br/>
+11. SR/atweaks Fiends<br/>
+12. SR/atweaks Call Woodland Beings<br/>
+13. Set Summonable Flag<br/>
+14. Alternative Lore Table<br/>
+15. Alternative Sorcerer Spell Progression<br/>
+16. Alternative Weapon Mastery<br/>
+17. Alternative Wisdom Bonus Spells<br/>
+18. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -36,7 +38,13 @@ Scans for all spells that have descriptions and updates their listed ranges to t
 4. Use Numbers Only<br/>
 
 ## Non-Upgradeable Carsomyr<br/>
-Replaces the non-upgraded version of Carsomyr with the upgraded version, but sets its magic resistance bonus to +10%, its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
+Replaces the non-upgraded version of Carsomyr with the upgraded version while setting its magic resistance to either 10% or 20% (depending on which option you choose), its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>
+
+## Quick Slot Ras<br/>
+Makes Ras the Dancing Blade into a quick slot item that's easier to use throughout the game.<br/>
+
+## Original Lightning Bolt<br/>
+Lightning bolts will use their original bouncing projectile. Intended for use with SR/R, which replaces the vanilla lightning bolt projectile with a single target chain lightning-like projectile.<br/>
 
 ## Revised Shapeshifting Tokens for SCS<br/>
 Hijacks SCS' improved shapeshifting tokens, rewrites their descriptions to the SRR/IRR format, and slightly revises some of their stats. Requires SCS's improved shapeshifting component to actually be installed to work.<br/>
