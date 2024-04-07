@@ -1,0 +1,2 @@
+COPY_EXISTING ~ring26.itm~ ~override\ring26.itm~
+  WRITE_BYTE 0x1c 0

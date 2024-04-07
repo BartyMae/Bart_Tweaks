@@ -1,6 +1,6 @@
 BACKUP ~bart_tweaks/backup~
 AUTHOR ~Bartimaeus~
-VERSION ~Version 1.2.1~
+VERSION ~Version 1.2.2~
 
 NO_IF_EVAL_BUG
 
@@ -122,6 +122,14 @@ BEGIN ~Quick Slot Ras~
 DESIGNATED 2010
 GROUP ~Fixes/Tweaks for Other Mods~
 INCLUDE ~bart_tweaks/lib/dancing_blade.tpa~
+
+// -----------------------------
+// Quick Slot Ring of Djinni Summoning
+// -----------------------------
+BEGIN ~Quick Slot Ring of Djinni Summoning~
+DESIGNATED 2080
+GROUP ~Fixes/Tweaks for Other Mods~
+INCLUDE ~bart_tweaks/lib/djinni_summoning.tpa~
 
 // -----------------------------
 // Original Lightning Bolt for SR

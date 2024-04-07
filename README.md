@@ -1,22 +1,23 @@
 # Bart Tweaks<br/>
-1. No Reputation Loss from Slayer Form (Cheat)<br/>
-2. Debug Ring (Cheat)<br/>
-3. No Random Treasures<br/>
-4. Droppable/Movable NPC Items<br/>
-5. Display Actual Range of Spells in Descriptions<br/>
-6. Non-Upgradeable Carsomyr<br/>
-7. Quick Slot Ras<br/>
-8. Original Lightning Bolt<br/>
-9. Revised Shapeshifting for SCS<br/>
-10. SR/atweaks Elementals<br/>
-11. SR/atweaks Fiends<br/>
-12. SR/atweaks Call Woodland Beings<br/>
-13. Set Summonable Flag<br/>
-14. Alternative Lore Table<br/>
-15. Alternative Sorcerer Spell Progression<br/>
-16. Alternative Weapon Mastery<br/>
-17. Alternative Wisdom Bonus Spells<br/>
-18. Alternative Constitution Bonuses<br/>
+01. No Reputation Loss from Slayer Form (Cheat)<br/>
+02. Debug Ring (Cheat)<br/>
+03. No Random Treasures<br/>
+04. Droppable/Movable NPC Items<br/>
+05. Display Actual Range of Spells in Descriptions<br/>
+06. Non-Upgradeable Carsomyr<br/>
+07. Quick Slot Ras<br/>
+08. Quick Slot Ring of Djinni Summoning<br/>
+09. Original Lightning Bolt<br/>
+10. Revised Shapeshifting for SCS<br/>
+11. SR/atweaks Elementals<br/>
+12. SR/atweaks Fiends<br/>
+13. SR/atweaks Call Woodland Beings<br/>
+14. Set Summonable Flag<br/>
+15. Alternative Lore Table<br/>
+16. Alternative Sorcerer Spell Progression<br/>
+17. Alternative Weapon Mastery<br/>
+18. Alternative Wisdom Bonus Spells<br/>
+19. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -42,6 +43,9 @@ Replaces the non-upgraded version of Carsomyr with the upgraded version while se
 
 ## Quick Slot Ras<br/>
 Makes Ras the Dancing Blade into a quick slot item that's easier to use throughout the game.<br/>
+
+## Quick Slot Ring of Djinni Summoning<br/>
+Makes The Ring of Djinni Summoning into a quick slot item that's easier to use throughout the game.<br/>
 
 ## Original Lightning Bolt<br/>
 Lightning bolts will use their original bouncing projectile. Intended for use with SR/R, which replaces the vanilla lightning bolt projectile with a single target chain lightning-like projectile.<br/>
