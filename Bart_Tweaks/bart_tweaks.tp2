@@ -97,6 +97,15 @@ OUTER_SET ranged_curing = 3
 INCLUDE ~bart_tweaks/lib/ranged_curing.tpa~
 
 // -----------------------------
+// Disable Protection Against +x Magical Weapons
+// -----------------------------
+
+BEGIN ~Disable Protection Against +x Weapon Enchantment Levels~
+DESIGNATED 1060
+GROUP ~Random Stuff~
+INCLUDE ~bart_tweaks/lib/magical_weapon_protection.tpa~
+
+// -----------------------------
 // Non-Upgradeable Carsomyr for IR
 // -----------------------------
 BEGIN ~10% Magic Resistance~

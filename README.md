@@ -4,20 +4,21 @@
 03. No Random Treasures<br/>
 04. Droppable/Movable NPC Items<br/>
 05. Display Actual Range of Spells in Descriptions<br/>
-06. Non-Upgradeable Carsomyr<br/>
-07. Quick Slot Ras<br/>
-08. Quick Slot Ring of Djinni Summoning<br/>
-09. Original Lightning Bolt<br/>
-10. Revised Shapeshifting for SCS<br/>
-11. SR/atweaks Elementals<br/>
-12. SR/atweaks Fiends<br/>
-13. SR/atweaks Call Woodland Beings<br/>
-14. Set Summonable Flag<br/>
-15. Alternative Lore Table<br/>
-16. Alternative Sorcerer Spell Progression<br/>
-17. Alternative Weapon Mastery<br/>
-18. Alternative Wisdom Bonus Spells<br/>
-19. Alternative Constitution Bonuses<br/>
+06. Disable Protection Against +x Magical Weapons<br/>
+07. Non-Upgradeable Carsomyr<br/>
+08. Quick Slot Ras<br/>
+09. Quick Slot Ring of Djinni Summoning<br/>
+10. Original Lightning Bolt<br/>
+11. Revised Shapeshifting for SCS<br/>
+12. SR/atweaks Elementals<br/>
+13. SR/atweaks Fiends<br/>
+14. SR/atweaks Call Woodland Beings<br/>
+15. Set Summonable Flag<br/>
+16. Alternative Lore Table<br/>
+17. Alternative Sorcerer Spell Progression<br/>
+18. Alternative Weapon Mastery<br/>
+19. Alternative Wisdom Bonus Spells<br/>
+20. Alternative Constitution Bonuses<br/>
 
 ## No Reputation Loss from Slayer Form<br/>
 Makes it so there is no reputation penalty from transforming into the Slayer. Should also affect Ascension's Ravager transformation.<br/>
@@ -37,6 +38,9 @@ Scans for all spells that have descriptions and updates their listed ranges to t
 2. "Touch" for Ranges of 1<br/>
 3. "Personal" for Ranges of 0<br/>
 4. Use Numbers Only<br/>
+
+## Disable Protection Against +x Weapon Enchantment Levels<br/>
+Prevents creatures from being protected against magical weapons of a certain enchantment level. Creatures which were previously immune to e.g. magical weapons of +2 or less can now be damaged by magical weapons of all enchantment levels, including +1 and +2 weapons (but typically not non-magical weapons). If a creature was protected by weapons of +5 or greater, then they will still be immune to all magical weapons. This effect will also apply to all spells and abilities cast by both the player and enemies, so Absolute Immunity and Protection from Magical Weapons will still give immunity to all magical weapons, but the Tear of Fear which normally grants immunity to both non-magical weapons and +1 weapons will now only grant protection against non-magical weapons.
 
 ## Non-Upgradeable Carsomyr<br/>
 Replaces the non-upgraded version of Carsomyr with the upgraded version while setting its magic resistance to either 10% or 20% (depending on which option you choose), its price to 20,000, its lore to 100, and then disables Cespenar's upgrade path for it. Meant for use with IR/R, and reserves the Eye of Tyr for Purifier without unnecessarily gimping Carsomyr.<br/>

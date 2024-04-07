@@ -1,0 +1,25 @@
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 1 silent = 1 END
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 2 silent = 1 END
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 3 silent = 1 END
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 4 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 1 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 2 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 3 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 4 silent = 1 END
+  END
+  BUT_ONLY
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 1 silent = 1 END
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 2 silent = 1 END
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 3 silent = 1 END
+    LPF ~DELETE_EFFECT~ INT_VAR match_opcode = 120 match_parameter1 = 4 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 1 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 2 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 3 silent = 1 END
+    LPF ~CLONE_EFFECT~ INT_VAR multi_match = 1 match_opcode = 120 opcode = 120 match_parameter1 = 5 parameter1 = 4 silent = 1 END
+  END
+  BUT_ONLY
